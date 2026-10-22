@@ -3,63 +3,81 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>India Daily AQI & Early Warning System</title>
+  <title>India National AQI & Early Warning System</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
     body { font-family: 'Plus Jakarta Sans', sans-serif; }
     .mono { font-family: 'JetBrains Mono', monospace; }
+    .glass-card {
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glass-subcard {
+      background: rgba(30, 41, 59, 0.55);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
   </style>
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen selection:bg-rose-500 selection:text-white">
+<body class="bg-slate-950 text-slate-100 min-h-screen selection:bg-rose-500 selection:text-white pb-20">
 
-  <!-- Background decorative gradients -->
+  <!-- Ambient background glow effects -->
   <div class="fixed inset-0 overflow-hidden pointer-events-none z-0">
-    <div class="absolute -top-40 -left-40 w-96 h-96 bg-rose-600/20 rounded-full blur-3xl"></div>
-    <div class="absolute top-1/3 -right-40 w-96 h-96 bg-amber-600/15 rounded-full blur-3xl"></div>
-    <div class="absolute -bottom-40 left-1/3 w-96 h-96 bg-sky-600/15 rounded-full blur-3xl"></div>
+    <div class="absolute -top-40 -left-40 w-[500px] h-[500px] bg-rose-600/15 rounded-full blur-[120px]"></div>
+    <div class="absolute top-1/3 -right-40 w-[500px] h-[500px] bg-amber-600/10 rounded-full blur-[120px]"></div>
+    <div class="absolute -bottom-40 left-1/3 w-[500px] h-[500px] bg-sky-600/10 rounded-full blur-[120px]"></div>
   </div>
 
-  <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+  <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12">
 
-    <!-- Header -->
+    <!-- Top Badge & Header -->
     <header class="text-center mb-10">
-      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 border border-slate-800 text-xs text-slate-400 mb-4 shadow-sm">
-        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-        <span>Nationwide Early-Warning Study & Live Operational Model</span>
+      <div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-slate-900/90 border border-slate-800 text-xs text-slate-300 mb-4 shadow-inner">
+        <span class="flex h-2 w-2 relative">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+        </span>
+        <span class="font-medium tracking-wide">National Air Quality Intelligence & Early Warning System</span>
       </div>
-      <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent mb-3">
+      <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-white via-slate-100 to-slate-400 bg-clip-text text-transparent mb-3">
         India AQI & Health Hazard Report
       </h1>
-      <p class="text-slate-400 max-w-2xl mx-auto text-sm sm:text-base">
-        Calibrated multi-horizon early-warning and continuous ground-truth reporting across 292 monitored cities and 32 states in India.
+      <p class="text-slate-400 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
+        Calibrated multi-horizon hazard forecasting across <span class="text-slate-200 font-semibold">292 monitored cities</span> in 32 Indian States & Union Territories.
       </p>
     </header>
 
-    <!-- Main Card -->
-    <div class="bg-slate-900/90 backdrop-blur-xl border border-slate-800/80 rounded-2xl p-6 sm:p-8 shadow-2xl shadow-black/50 mb-8">
-      <h2 class="text-lg font-semibold text-white mb-6 flex items-center gap-2">
-        <svg class="w-5 h-5 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
-        Select Location & Target Date
-      </h2>
+    <!-- Interactive Query Form -->
+    <div class="glass-card rounded-2xl p-6 sm:p-8 shadow-2xl shadow-black/60 mb-10">
+      <div class="flex items-center justify-between mb-6 pb-4 border-b border-slate-800/80">
+        <h2 class="text-base sm:text-lg font-semibold text-white flex items-center gap-2.5">
+          <span class="p-1.5 rounded-lg bg-rose-500/10 text-rose-400">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+          </span>
+          Query Location & Observation Date
+        </h2>
+        <span class="text-xs text-slate-400 hidden sm:inline">Ground-truth CPCB data</span>
+      </div>
 
-      <!-- Inputs Form -->
+      <!-- Grid Form -->
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 mb-6">
         
         <!-- State -->
         <div>
-          <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">1. State / UT</label>
-          <select id="stateSelect" class="w-full bg-slate-950/80 border border-slate-800 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:border-transparent transition">
+          <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">1. State / Union Territory</label>
+          <select id="stateSelect" class="w-full bg-slate-950/90 border border-slate-800 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:border-transparent transition text-sm">
             <option value="" disabled selected>Loading states...</option>
           </select>
         </div>
 
         <!-- City -->
         <div>
-          <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">2. City / Area</label>
-          <select id="citySelect" class="w-full bg-slate-950/80 border border-slate-800 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:border-transparent transition">
+          <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">2. City / Urban Area</label>
+          <select id="citySelect" class="w-full bg-slate-950/90 border border-slate-800 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:border-transparent transition text-sm">
             <option value="" disabled selected>Select a state first</option>
           </select>
         </div>
@@ -67,52 +85,178 @@
         <!-- Date -->
         <div>
           <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">3. Observation Date</label>
-          <input type="date" id="dateInput" value="2024-11-15" class="w-full bg-slate-950/80 border border-slate-800 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:border-transparent transition">
+          <input type="date" id="dateInput" value="2024-11-15" class="w-full bg-slate-950/90 border border-slate-800 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:border-transparent transition text-sm">
         </div>
 
       </div>
 
-      <!-- Quick Preset Buttons -->
-      <div class="flex flex-wrap items-center gap-2 text-xs mb-6">
-        <span class="text-slate-500">Quick Presets:</span>
-        <button type="button" onclick="setPreset('Bihar', 'Patna', '2024-11-15')" class="px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition">
-          Patna (Winter Peak Smog)
+      <!-- Quick Preset Chips -->
+      <div class="flex flex-wrap items-center gap-2 text-xs mb-7">
+        <span class="text-slate-500 font-medium mr-1">Recommended Presets:</span>
+        <button type="button" onclick="setPreset('Bihar', 'Patna', '2024-11-15')" class="px-3 py-1.5 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white transition border border-slate-700/60 flex items-center gap-1.5">
+          <span class="w-1.5 h-1.5 rounded-full bg-rose-400"></span> Patna (Winter Smog)
         </button>
-        <button type="button" onclick="setPreset('Delhi', 'Delhi', '2024-11-15')" class="px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition">
-          Delhi (Emergency Peak)
+        <button type="button" onclick="setPreset('Delhi', 'Delhi', '2024-11-15')" class="px-3 py-1.5 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white transition border border-slate-700/60 flex items-center gap-1.5">
+          <span class="w-1.5 h-1.5 rounded-full bg-purple-400"></span> Delhi (Severe Episode)
         </button>
-        <button type="button" onclick="setPreset('Maharashtra', 'Mumbai', '2024-11-15')" class="px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition">
-          Mumbai (Moderate)
+        <button type="button" onclick="setPreset('Maharashtra', 'Mumbai', '2024-11-15')" class="px-3 py-1.5 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white transition border border-slate-700/60 flex items-center gap-1.5">
+          <span class="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Mumbai (Moderate)
         </button>
-        <button type="button" onclick="setPreset('Karnataka', 'Bengaluru', '2024-11-15')" class="px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition">
-          Bengaluru (Satisfactory)
+        <button type="button" onclick="setPreset('Karnataka', 'Bengaluru', '2024-11-15')" class="px-3 py-1.5 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white transition border border-slate-700/60 flex items-center gap-1.5">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> Bengaluru (Clean / Safe)
         </button>
       </div>
 
       <!-- Submit Button -->
-      <button id="generateBtn" onclick="fetchReport()" class="w-full py-3.5 px-6 rounded-xl bg-gradient-to-r from-rose-600 via-rose-500 to-amber-500 text-white font-semibold text-sm shadow-lg shadow-rose-950 hover:brightness-110 active:scale-[0.99] transition flex items-center justify-center gap-2">
+      <button id="generateBtn" onclick="fetchReport()" class="w-full py-4 px-6 rounded-xl bg-gradient-to-r from-rose-600 via-rose-500 to-amber-500 text-white font-bold text-sm tracking-wide shadow-xl shadow-rose-950/50 hover:brightness-110 active:scale-[0.99] transition flex items-center justify-center gap-2.5">
         <span id="btnSpinner" class="hidden w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin"></span>
         <span id="btnText">Generate Air Quality & Health Hazard Report</span>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
       </button>
 
     </div>
 
-    <!-- Output Section -->
-    <div id="outputContainer" class="hidden space-y-6">
+    <!-- Output Section (Dynamically Populated) -->
+    <div id="outputContainer" class="hidden space-y-8">
 
-      <!-- Text Block Container with 1-click Copy -->
-      <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
-        <div class="bg-slate-950/80 px-6 py-3 border-b border-slate-800/80 flex items-center justify-between">
+      <!-- Hero AQI Status Card -->
+      <div id="heroCard" class="glass-card rounded-2xl p-6 sm:p-8 border shadow-2xl relative overflow-hidden transition-all duration-300">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <!-- Left: Big AQI Gauge & Category -->
+          <div class="lg:col-span-5 flex flex-col items-center sm:items-start text-center sm:text-left border-b lg:border-b-0 lg:border-r border-slate-800/80 pb-6 lg:pb-0 lg:pr-8">
+            <span class="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-1">Current Ground AQI</span>
+            
+            <div class="flex items-baseline gap-3 my-1">
+              <span id="aqiNumber" class="text-6xl sm:text-7xl font-extrabold tracking-tight text-white">-</span>
+              <span class="text-sm text-slate-400 font-medium">/ 500</span>
+            </div>
+
+            <div class="mt-2 mb-3">
+              <span id="aqiBadge" class="inline-flex items-center px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider shadow-sm">
+                -
+              </span>
+            </div>
+            
+            <p id="aqiDescription" class="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-sm"></p>
+          </div>
+
+          <!-- Right: Key Meta Information Grid -->
+          <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            
+            <!-- Location -->
+            <div class="glass-subcard p-4 rounded-xl flex items-start gap-3">
+              <div class="p-2.5 rounded-lg bg-slate-800/80 text-rose-400 text-lg">📍</div>
+              <div>
+                <span class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider block">Monitored Location</span>
+                <span id="metaLocation" class="text-sm font-bold text-white block mt-0.5">-</span>
+                <span id="metaCoords" class="text-[11px] text-slate-400 block mt-0.5 mono">-</span>
+              </div>
+            </div>
+
+            <!-- Date -->
+            <div class="glass-subcard p-4 rounded-xl flex items-start gap-3">
+              <div class="p-2.5 rounded-lg bg-slate-800/80 text-amber-400 text-lg">📅</div>
+              <div>
+                <span class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider block">Observation Date</span>
+                <span id="metaDate" class="text-sm font-bold text-white block mt-0.5">-</span>
+                <span class="text-[11px] text-slate-400 block mt-0.5">15:30 IST CPCB Anchor</span>
+              </div>
+            </div>
+
+            <!-- Main Hazard -->
+            <div class="glass-subcard p-4 rounded-xl flex items-start gap-3">
+              <div class="p-2.5 rounded-lg bg-slate-800/80 text-sky-400 text-lg">💨</div>
+              <div>
+                <span class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider block">Dominant Hazard</span>
+                <span id="metaHazard" class="text-sm font-bold text-white block mt-0.5">-</span>
+              </div>
+            </div>
+
+            <!-- Stations -->
+            <div class="glass-subcard p-4 rounded-xl flex items-start gap-3">
+              <div class="p-2.5 rounded-lg bg-slate-800/80 text-purple-400 text-lg">🏛️</div>
+              <div>
+                <span class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider block">CPCB Stations</span>
+                <span id="metaStations" class="text-sm font-bold text-white block mt-0.5">-</span>
+                <span class="text-[11px] text-slate-400 block mt-0.5">Continuous Ambient Monitors</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Health Hazard Advisory Card -->
+      <div id="advisoryCard" class="glass-card rounded-2xl p-6 sm:p-8 border shadow-xl">
+        <div class="flex items-center gap-3 mb-6 pb-4 border-b border-slate-800/80">
+          <span class="text-2xl">⚠️</span>
+          <div>
+            <h3 class="text-base sm:text-lg font-bold text-white tracking-wide">Public Health Hazard Advisory</h3>
+            <span id="advisoryLevel" class="text-xs font-semibold uppercase tracking-wider block mt-0.5 text-rose-400">-</span>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          
+          <!-- Impact & Groups -->
+          <div class="space-y-4">
+            <div class="glass-subcard p-4 rounded-xl">
+              <span class="text-xs font-bold text-slate-300 uppercase tracking-wider block mb-1.5">Clinical Impact</span>
+              <p id="advisoryImpact" class="text-xs sm:text-sm text-slate-300 leading-relaxed">-</p>
+            </div>
+
+            <div class="glass-subcard p-4 rounded-xl">
+              <span class="text-xs font-bold text-slate-300 uppercase tracking-wider block mb-1.5">At-Risk Demographics</span>
+              <p id="advisoryAtRisk" class="text-xs sm:text-sm text-slate-300 leading-relaxed">-</p>
+            </div>
+          </div>
+
+          <!-- Precautions List -->
+          <div class="glass-subcard p-5 rounded-xl flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-bold text-slate-300 uppercase tracking-wider block mb-3">Recommended Medical Precautions</span>
+              <ul id="advisoryPrecautions" class="space-y-2.5 text-xs sm:text-sm text-slate-300"></ul>
+            </div>
+            <div class="mt-4 pt-3 border-t border-slate-800 text-[11px] text-slate-400">
+              * Based on Central Pollution Control Board (CPCB) NAQI health guidance.
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Multi-Horizon Early Warning (Tomorrow, Day After, 3-Days Ahead) -->
+      <div>
+        <div class="flex items-center justify-between mb-4">
+          <div class="flex items-center gap-2">
+            <span class="text-xl">🔮</span>
+            <h3 class="text-base sm:text-lg font-bold text-white tracking-wide">Future Multi-Day Early Warning Outlook</h3>
+          </div>
+          <span class="text-xs text-slate-400">Calibrated two-head system</span>
+        </div>
+
+        <div id="outlookCardsGrid" class="grid grid-cols-1 md:grid-cols-3 gap-5">
+          <!-- Populated dynamically via JS -->
+        </div>
+      </div>
+
+      <!-- Raw Text Block Export (Exact Requested Format with 1-click Copy) -->
+      <div class="glass-card rounded-2xl overflow-hidden shadow-2xl">
+        <div class="bg-slate-950/80 px-6 py-3.5 border-b border-slate-800/80 flex items-center justify-between">
           <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider flex items-center gap-2">
             <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
-            Formatted Output
+            Formatted Text Block (Exact Copyable Output)
           </span>
-          <button onclick="copyFormattedReport()" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-medium transition">
+          <button onclick="copyFormattedReport()" class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold transition border border-slate-700/80 active:scale-95">
             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
             <span id="copyBtnLabel">Copy Text</span>
           </button>
         </div>
-        <pre id="textReport" class="mono text-xs sm:text-sm p-6 overflow-x-auto text-slate-200 leading-relaxed whitespace-pre font-mono"></pre>
+        <pre id="textReport" class="mono text-xs sm:text-sm p-6 overflow-x-auto text-slate-200 leading-relaxed whitespace-pre font-mono bg-slate-950/60"></pre>
       </div>
 
     </div>
@@ -122,7 +266,39 @@
   <script>
     let citiesData = {};
 
-    // Initial loading
+    const STATUS_THEMES = {
+      "GOOD": {
+        badgeBg: "bg-emerald-500/15 text-emerald-400 border border-emerald-500/30",
+        borderGlow: "border-emerald-500/30 shadow-emerald-950/30",
+        desc: "Air quality is considered satisfactory, and air pollution poses little or no risk.",
+      },
+      "SATISFACTORY": {
+        badgeBg: "bg-teal-500/15 text-teal-400 border border-teal-500/30",
+        borderGlow: "border-teal-500/30 shadow-teal-950/30",
+        desc: "Air quality is acceptable. Minor breathing discomfort to hypersensitive people.",
+      },
+      "MODERATE": {
+        badgeBg: "bg-amber-500/15 text-amber-400 border border-amber-500/30",
+        borderGlow: "border-amber-500/30 shadow-amber-950/30",
+        desc: "Breathing discomfort to people with lung disease, asthma, and heart disease upon prolonged exposure.",
+      },
+      "POOR": {
+        badgeBg: "bg-orange-500/15 text-orange-400 border border-orange-500/30",
+        borderGlow: "border-orange-500/30 shadow-orange-950/30",
+        desc: "Breathing discomfort to most people on prolonged exposure. Triggers Stage-I health warnings.",
+      },
+      "VERY POOR": {
+        badgeBg: "bg-rose-500/20 text-rose-400 border border-rose-500/40",
+        borderGlow: "border-rose-500/40 shadow-rose-950/40",
+        desc: "Respiratory illness on prolonged exposure. Triggers severe Stage-III air emergency action plan.",
+      },
+      "SEVERE": {
+        badgeBg: "bg-purple-500/25 text-purple-300 border border-purple-500/50",
+        borderGlow: "border-purple-500/50 shadow-purple-950/50",
+        desc: "Seriously impacts healthy people and severely affects those with existing diseases. Emergency curbs in place.",
+      }
+    };
+
     async function init() {
       try {
         const res = await fetch('/cities.json');
@@ -185,7 +361,7 @@
       const btnSpinner = document.getElementById('btnSpinner');
       const btnText = document.getElementById('btnText');
       btnSpinner.classList.remove('hidden');
-      btnText.textContent = "Computing Forecast...";
+      btnText.textContent = "Querying CPCB & Computing Forecast...";
 
       try {
         const res = await fetch(`/api?city=${encodeURIComponent(city)}&state=${encodeURIComponent(state)}&date=${encodeURIComponent(date)}`);
@@ -205,9 +381,86 @@
         return;
       }
 
-      const container = document.getElementById('outputContainer');
-      const textPre = document.getElementById('textReport');
+      const statusKey = d.status.toUpperCase();
+      const theme = STATUS_THEMES[statusKey] || STATUS_THEMES["MODERATE"];
 
+      // 1. Hero Card Updates
+      document.getElementById('aqiNumber').textContent = d.aqi;
+      const aqiBadge = document.getElementById('aqiBadge');
+      aqiBadge.className = `inline-flex items-center px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider shadow-sm ${theme.badgeBg}`;
+      aqiBadge.textContent = d.status;
+      document.getElementById('aqiDescription').textContent = theme.desc;
+
+      // 2. Meta tiles
+      document.getElementById('metaLocation').textContent = `${d.city}, ${d.state}`;
+      document.getElementById('metaCoords').textContent = `${d.coordinates.lat}°N, ${d.coordinates.lon}°E`;
+      document.getElementById('metaDate').textContent = d.date;
+      document.getElementById('metaHazard').textContent = d.main_hazard;
+      document.getElementById('metaStations').textContent = `${d.stations} Active Station${d.stations > 1 ? 's' : ''}`;
+
+      // 3. Advisory Card
+      document.getElementById('advisoryLevel').textContent = d.advisory.level;
+      document.getElementById('advisoryImpact').textContent = d.advisory.impact;
+      document.getElementById('advisoryAtRisk').textContent = d.advisory.at_risk;
+
+      const precautionsList = document.getElementById('advisoryPrecautions');
+      precautionsList.innerHTML = '';
+      d.advisory.precautions.forEach(p => {
+        const li = document.createElement('li');
+        li.className = "flex items-start gap-2.5";
+        li.innerHTML = `<span class="text-rose-400 font-bold">✓</span><span>${p}</span>`;
+        precautionsList.appendChild(li);
+      });
+
+      // 4. Future Outlook Cards (3 Grid columns)
+      const outlookGrid = document.getElementById('outlookCardsGrid');
+      outlookGrid.innerHTML = '';
+      d.outlook.forEach((o, idx) => {
+        const card = document.createElement('div');
+        const isAlert = o.alert;
+        const cardBorder = isAlert ? 'border-rose-500/40 bg-rose-950/20' : 'border-emerald-500/30 bg-emerald-950/15';
+        const badgeStyle = isAlert ? 'bg-rose-500/20 text-rose-300 border-rose-500/40' : 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30';
+        const progressBg = isAlert ? 'bg-gradient-to-r from-amber-500 to-rose-500' : 'bg-emerald-500';
+
+        card.className = `glass-card p-5 rounded-xl border ${cardBorder} flex flex-col justify-between transition hover:scale-[1.02] duration-200`;
+        card.innerHTML = `
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-bold text-slate-300 uppercase tracking-wider">${o.name}</span>
+              <span class="text-xs text-slate-400 mono">${o.date_label}</span>
+            </div>
+            
+            <div class="my-3">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wide border ${badgeStyle}">
+                <span>${isAlert ? '🔴' : '🟢'}</span>
+                <span>${isAlert ? 'ALERT TRIGGERED' : 'LOW RISK / SAFE'}</span>
+              </span>
+            </div>
+
+            <div class="mt-4 mb-2">
+              <div class="flex justify-between text-xs mb-1">
+                <span class="text-slate-400">Hazard Probability:</span>
+                <span class="font-bold text-white mono">${o.prob}%</span>
+              </div>
+              <div class="w-full bg-slate-800 rounded-full h-2 overflow-hidden">
+                <div class="${progressBg} h-2 rounded-full transition-all duration-500" style="width: ${Math.min(100, Math.max(5, o.prob))}%"></div>
+              </div>
+            </div>
+
+            <p class="text-xs text-slate-300 mt-3 leading-relaxed">
+              ${o.prob}% probability of ${o.desc}.
+            </p>
+          </div>
+          
+          <div class="mt-4 pt-3 border-t border-slate-800/80 text-[11px] text-slate-500 flex items-center justify-between">
+            <span>Lead time: +${o.horizon}d</span>
+            <span>Target: AQI &gt; 200</span>
+          </div>
+        `;
+        outlookGrid.appendChild(card);
+      });
+
+      // 5. Plain Formatted Text Block (for Copying)
       let outlookLines = "";
       d.outlook.forEach(o => {
         outlookLines += `   * ${o.name} (${o.date_label}):      ${o.badge}: ${o.prob}% probability of ${o.desc}.\n`;
@@ -237,7 +490,9 @@ ${precautionsLines}
 🔮 FUTURE EARLY WARNING OUTLOOK:
 ${outlookLines}========================================================================`;
 
-      textPre.textContent = formatted;
+      document.getElementById('textReport').textContent = formatted;
+
+      const container = document.getElementById('outputContainer');
       container.classList.remove('hidden');
       container.scrollIntoView({ behavior: 'smooth' });
     }
@@ -246,12 +501,11 @@ ${outlookLines}=================================================================
       const text = document.getElementById('textReport').textContent;
       navigator.clipboard.writeText(text).then(() => {
         const btn = document.getElementById('copyBtnLabel');
-        btn.textContent = "Copied!";
+        btn.textContent = "Copied to Clipboard!";
         setTimeout(() => { btn.textContent = "Copy Text"; }, 2000);
       });
     }
 
-    // Auto-init
     window.addEventListener('DOMContentLoaded', init);
   </script>
 
