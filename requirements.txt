@@ -1,20 +1,7 @@
-# Core runtime (pinned to the environment the models were trained in).
-# scikit-learn must stay 1.9.1: the joblib artefacts fail to unpickle on other minors.
-pandas==2.2.3
-numpy==2.1.3
-scikit-learn==1.9.1
-xgboost==3.4.1
-joblib==1.5.2
-requests==2.34.2
-cryptography==50.0.2
-
-# Plots and the full eight-model benchmark in the notebook.
-matplotlib==3.11.2
-seaborn==0.13.2
-lightgbm==4.7.0
-catboost==1.2.10
-
-# Notebook execution (optional for the pipeline, required to rerun the notebook headless).
-nbconvert>=7.16
-nbclient>=0.10
-ipykernel>=6.29
+# ---------------------------------------------------------------------------
+# Vercel Runtime Dependencies
+# The Vercel serverless API uses Python's standard library (sqlite3, http.server).
+#
+# For the full machine learning training & notebook reproduction environment, run:
+#   pip install -r requirements-research.txt
+# ---------------------------------------------------------------------------
