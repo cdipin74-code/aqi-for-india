@@ -1,0 +1,2694 @@
+{
+  "Andhra Pradesh": [
+    {
+      "area": "Amaravati",
+      "lat": 16.514,
+      "lon": 80.516,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1060,
+      "avg_aqi": 69.0
+    },
+    {
+      "area": "Rajamahendravaram",
+      "lat": 17.0052,
+      "lon": 81.7778,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1086,
+      "avg_aqi": 76.8
+    },
+    {
+      "area": "Tirupati",
+      "lat": 13.6355,
+      "lon": 79.4199,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-21",
+      "records": 1060,
+      "avg_aqi": 68.7
+    },
+    {
+      "area": "Visakhapatnam",
+      "lat": 17.6801,
+      "lon": 83.2016,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1046,
+      "avg_aqi": 116.1
+    },
+    {
+      "area": "Anantapur",
+      "lat": 14.6778,
+      "lon": 77.6081,
+      "min_date": "2022-08-27",
+      "max_date": "2025-04-30",
+      "records": 799,
+      "avg_aqi": 67.2
+    },
+    {
+      "area": "Chittoor",
+      "lat": 13.2105,
+      "lon": 79.0956,
+      "min_date": "2022-11-22",
+      "max_date": "2025-04-30",
+      "records": 655,
+      "avg_aqi": 74.0
+    },
+    {
+      "area": "Kadapa",
+      "lat": 14.48,
+      "lon": 78.8235,
+      "min_date": "2023-01-25",
+      "max_date": "2025-04-30",
+      "records": 616,
+      "avg_aqi": 66.9
+    },
+    {
+      "area": "Vijayawada",
+      "lat": 16.5074,
+      "lon": 80.6466,
+      "min_date": "2023-01-26",
+      "max_date": "2025-04-30",
+      "records": 688,
+      "avg_aqi": 71.9
+    },
+    {
+      "area": "Tirumala",
+      "lat": 13.6355,
+      "lon": 79.4199,
+      "min_date": "2025-01-21",
+      "max_date": "2026-10-21",
+      "records": 140,
+      "avg_aqi": 75.2
+    }
+  ],
+  "Assam": [
+    {
+      "area": "Guwahati",
+      "lat": 26.1844,
+      "lon": 91.7458,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1119,
+      "avg_aqi": 119.7
+    },
+    {
+      "area": "Sivasagar",
+      "lat": 0.0,
+      "lon": 0.0,
+      "min_date": "2022-09-30",
+      "max_date": "2025-04-30",
+      "records": 911,
+      "avg_aqi": 47.9
+    },
+    {
+      "area": "Nalbari",
+      "lat": 26.4394,
+      "lon": 91.4404,
+      "min_date": "2022-11-24",
+      "max_date": "2025-04-30",
+      "records": 767,
+      "avg_aqi": 144.4
+    },
+    {
+      "area": "Byrnihat",
+      "lat": 0.0,
+      "lon": 0.0,
+      "min_date": "2022-12-24",
+      "max_date": "2025-04-30",
+      "records": 656,
+      "avg_aqi": 240.0
+    },
+    {
+      "area": "Nagaon",
+      "lat": 26.35,
+      "lon": 92.6667,
+      "min_date": "2023-02-08",
+      "max_date": "2025-04-30",
+      "records": 723,
+      "avg_aqi": 111.2
+    },
+    {
+      "area": "Silchar",
+      "lat": 24.8273,
+      "lon": 92.7979,
+      "min_date": "2023-03-13",
+      "max_date": "2025-04-30",
+      "records": 745,
+      "avg_aqi": 47.5
+    }
+  ],
+  "Bihar": [
+    {
+      "area": "Arrah",
+      "lat": 25.5563,
+      "lon": 84.6633,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 867,
+      "avg_aqi": 153.6
+    },
+    {
+      "area": "Aurangabad",
+      "lat": 24.752,
+      "lon": 84.3742,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1897,
+      "avg_aqi": 121.7
+    },
+    {
+      "area": "Bhagalpur",
+      "lat": 25.2445,
+      "lon": 86.9718,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1086,
+      "avg_aqi": 164.7
+    },
+    {
+      "area": "Bihar Sharif",
+      "lat": 25.2008,
+      "lon": 85.5239,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-16",
+      "records": 824,
+      "avg_aqi": 134.8
+    },
+    {
+      "area": "Chhapra",
+      "lat": 20.9253,
+      "lon": 72.9289,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-28",
+      "records": 928,
+      "avg_aqi": 176.2
+    },
+    {
+      "area": "Darbhanga",
+      "lat": 26.1522,
+      "lon": 85.8971,
+      "min_date": "2022-04-01",
+      "max_date": "2023-01-14",
+      "records": 256,
+      "avg_aqi": 190.1
+    },
+    {
+      "area": "Gaya",
+      "lat": 24.7969,
+      "lon": 85.0038,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1117,
+      "avg_aqi": 126.4
+    },
+    {
+      "area": "Hajipur",
+      "lat": 25.6854,
+      "lon": 85.2098,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1083,
+      "avg_aqi": 164.5
+    },
+    {
+      "area": "Kishanganj",
+      "lat": 26.1022,
+      "lon": 87.9553,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 930,
+      "avg_aqi": 139.6
+    },
+    {
+      "area": "Motihari",
+      "lat": 27.0983,
+      "lon": 84.5492,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 942,
+      "avg_aqi": 139.4
+    },
+    {
+      "area": "Munger",
+      "lat": 25.3746,
+      "lon": 86.4745,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 930,
+      "avg_aqi": 158.9
+    },
+    {
+      "area": "Muzaffarpur",
+      "lat": 26.1226,
+      "lon": 85.3906,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1121,
+      "avg_aqi": 161.4
+    },
+    {
+      "area": "Patna",
+      "lat": 25.5941,
+      "lon": 85.1356,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1125,
+      "avg_aqi": 179.9
+    },
+    {
+      "area": "Rajgir",
+      "lat": 25.0283,
+      "lon": 85.4208,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-29",
+      "records": 825,
+      "avg_aqi": 145.8
+    },
+    {
+      "area": "Saharsa",
+      "lat": 25.875,
+      "lon": 86.5961,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 903,
+      "avg_aqi": 169.9
+    },
+    {
+      "area": "Sasaram",
+      "lat": 24.9494,
+      "lon": 84.0165,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 907,
+      "avg_aqi": 135.0
+    },
+    {
+      "area": "Siwan",
+      "lat": 26.221,
+      "lon": 84.3561,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 757,
+      "avg_aqi": 181.2
+    },
+    {
+      "area": "Araria",
+      "lat": 26.1493,
+      "lon": 87.5132,
+      "min_date": "2022-04-02",
+      "max_date": "2025-04-30",
+      "records": 838,
+      "avg_aqi": 165.1
+    },
+    {
+      "area": "Purnia",
+      "lat": 25.7789,
+      "lon": 87.4742,
+      "min_date": "2022-04-02",
+      "max_date": "2025-04-30",
+      "records": 882,
+      "avg_aqi": 161.5
+    },
+    {
+      "area": "Samastipur",
+      "lat": 25.8622,
+      "lon": 85.7795,
+      "min_date": "2022-04-02",
+      "max_date": "2025-04-30",
+      "records": 880,
+      "avg_aqi": 170.9
+    },
+    {
+      "area": "Bettiah",
+      "lat": 26.8023,
+      "lon": 84.5031,
+      "min_date": "2022-04-03",
+      "max_date": "2025-04-30",
+      "records": 789,
+      "avg_aqi": 162.2
+    },
+    {
+      "area": "Begusarai",
+      "lat": 25.4185,
+      "lon": 86.1339,
+      "min_date": "2022-04-05",
+      "max_date": "2025-04-30",
+      "records": 582,
+      "avg_aqi": 206.7
+    },
+    {
+      "area": "Manguraha",
+      "lat": 26.9384,
+      "lon": 84.3944,
+      "min_date": "2022-04-05",
+      "max_date": "2025-04-30",
+      "records": 681,
+      "avg_aqi": 102.2
+    },
+    {
+      "area": "Buxar",
+      "lat": 25.5755,
+      "lon": 83.9804,
+      "min_date": "2022-04-10",
+      "max_date": "2025-04-30",
+      "records": 508,
+      "avg_aqi": 152.1
+    },
+    {
+      "area": "Katihar",
+      "lat": 25.5385,
+      "lon": 87.5704,
+      "min_date": "2022-04-10",
+      "max_date": "2025-04-30",
+      "records": 953,
+      "avg_aqi": 161.8
+    }
+  ],
+  "Chandigarh": [
+    {
+      "area": "Chandigarh",
+      "lat": 30.7363,
+      "lon": 76.7884,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1125,
+      "avg_aqi": 141.6
+    }
+  ],
+  "Chhattisgarh": [
+    {
+      "area": "Bilaspur",
+      "lat": 22.08,
+      "lon": 82.1554,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-29",
+      "records": 936,
+      "avg_aqi": 69.0
+    },
+    {
+      "area": "Bhilai",
+      "lat": 21.2092,
+      "lon": 81.4285,
+      "min_date": "2022-06-28",
+      "max_date": "2025-04-30",
+      "records": 861,
+      "avg_aqi": 72.5
+    },
+    {
+      "area": "Korba",
+      "lat": 22.3458,
+      "lon": 82.6963,
+      "min_date": "2022-10-26",
+      "max_date": "2025-04-30",
+      "records": 827,
+      "avg_aqi": 73.0
+    },
+    {
+      "area": "Raipur",
+      "lat": 21.2333,
+      "lon": 81.6333,
+      "min_date": "2022-10-26",
+      "max_date": "2025-04-30",
+      "records": 847,
+      "avg_aqi": 80.2
+    },
+    {
+      "area": "Chhal",
+      "lat": 22.1283,
+      "lon": 83.1162,
+      "min_date": "2023-03-13",
+      "max_date": "2025-04-27",
+      "records": 643,
+      "avg_aqi": 76.0
+    },
+    {
+      "area": "Kunjemura",
+      "lat": 0.0,
+      "lon": 0.0,
+      "min_date": "2023-03-13",
+      "max_date": "2025-04-30",
+      "records": 622,
+      "avg_aqi": 108.8
+    },
+    {
+      "area": "Tumidih",
+      "lat": 21.7853,
+      "lon": 82.8739,
+      "min_date": "2023-03-13",
+      "max_date": "2025-04-30",
+      "records": 388,
+      "avg_aqi": 91.3
+    },
+    {
+      "area": "Milupara",
+      "lat": 22.1821,
+      "lon": 83.5192,
+      "min_date": "2023-03-14",
+      "max_date": "2025-04-26",
+      "records": 432,
+      "avg_aqi": 73.1
+    }
+  ],
+  "Delhi": [
+    {
+      "area": "Delhi",
+      "lat": 28.6519,
+      "lon": 77.2315,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-22",
+      "records": 1665,
+      "avg_aqi": 196.8
+    }
+  ],
+  "Gujarat": [
+    {
+      "area": "Ahmedabad",
+      "lat": 23.0258,
+      "lon": 72.5873,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1121,
+      "avg_aqi": 113.6
+    },
+    {
+      "area": "Ankleshwar",
+      "lat": 21.6324,
+      "lon": 72.99,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 961,
+      "avg_aqi": 108.9
+    },
+    {
+      "area": "Gandhi Nagar",
+      "lat": 12.978,
+      "lon": 77.5784,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-21",
+      "records": 1157,
+      "avg_aqi": 94.0
+    },
+    {
+      "area": "Nandesari",
+      "lat": 22.4062,
+      "lon": 73.0952,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-12",
+      "records": 438,
+      "avg_aqi": 107.8
+    },
+    {
+      "area": "Vatva",
+      "lat": 0.0,
+      "lon": 0.0,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1058,
+      "avg_aqi": 104.6
+    },
+    {
+      "area": "Vapi",
+      "lat": 20.3717,
+      "lon": 72.9049,
+      "min_date": "2022-05-10",
+      "max_date": "2025-04-30",
+      "records": 813,
+      "avg_aqi": 135.7
+    },
+    {
+      "area": "Surat",
+      "lat": 21.1959,
+      "lon": 72.8302,
+      "min_date": "2022-11-04",
+      "max_date": "2025-04-30",
+      "records": 707,
+      "avg_aqi": 116.6
+    }
+  ],
+  "Haryana": [
+    {
+      "area": "Ambala",
+      "lat": 30.361,
+      "lon": 76.7978,
+      "min_date": "2022-04-01",
+      "max_date": "2024-12-18",
+      "records": 900,
+      "avg_aqi": 111.2
+    },
+    {
+      "area": "Bahadurgarh",
+      "lat": 28.6929,
+      "lon": 76.9356,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-22",
+      "records": 962,
+      "avg_aqi": 164.4
+    },
+    {
+      "area": "Ballabgarh",
+      "lat": 28.3373,
+      "lon": 77.3263,
+      "min_date": "2022-04-01",
+      "max_date": "2024-12-18",
+      "records": 928,
+      "avg_aqi": 155.5
+    },
+    {
+      "area": "Bhiwani",
+      "lat": 28.793,
+      "lon": 76.1397,
+      "min_date": "2022-04-01",
+      "max_date": "2024-12-17",
+      "records": 934,
+      "avg_aqi": 141.2
+    },
+    {
+      "area": "Charkhi Dadri",
+      "lat": 28.5917,
+      "lon": 76.2716,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-01",
+      "records": 1051,
+      "avg_aqi": 155.4
+    },
+    {
+      "area": "Dharuhera",
+      "lat": 28.2055,
+      "lon": 76.7969,
+      "min_date": "2022-04-01",
+      "max_date": "2024-12-17",
+      "records": 764,
+      "avg_aqi": 185.7
+    },
+    {
+      "area": "Faridabad",
+      "lat": 28.4112,
+      "lon": 77.3132,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-22",
+      "records": 1134,
+      "avg_aqi": 179.6
+    },
+    {
+      "area": "Fatehabad",
+      "lat": 29.5153,
+      "lon": 75.4555,
+      "min_date": "2022-04-01",
+      "max_date": "2024-12-18",
+      "records": 781,
+      "avg_aqi": 145.9
+    },
+    {
+      "area": "Gurugram",
+      "lat": 28.4601,
+      "lon": 77.0263,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-22",
+      "records": 1161,
+      "avg_aqi": 189.3
+    },
+    {
+      "area": "Hisar",
+      "lat": 29.1539,
+      "lon": 75.7229,
+      "min_date": "2022-04-01",
+      "max_date": "2024-12-17",
+      "records": 771,
+      "avg_aqi": 150.7
+    },
+    {
+      "area": "Jind",
+      "lat": 29.3158,
+      "lon": 76.315,
+      "min_date": "2022-04-01",
+      "max_date": "2024-12-17",
+      "records": 888,
+      "avg_aqi": 141.5
+    },
+    {
+      "area": "Kaithal",
+      "lat": 29.8015,
+      "lon": 76.3996,
+      "min_date": "2022-04-01",
+      "max_date": "2024-12-18",
+      "records": 926,
+      "avg_aqi": 138.5
+    },
+    {
+      "area": "Karnal",
+      "lat": 29.692,
+      "lon": 76.9845,
+      "min_date": "2022-04-01",
+      "max_date": "2024-12-18",
+      "records": 937,
+      "avg_aqi": 108.8
+    },
+    {
+      "area": "Mandikhera",
+      "lat": 27.9412,
+      "lon": 77.0087,
+      "min_date": "2022-04-01",
+      "max_date": "2024-12-17",
+      "records": 915,
+      "avg_aqi": 90.7
+    },
+    {
+      "area": "Manesar",
+      "lat": 28.3531,
+      "lon": 76.9404,
+      "min_date": "2022-04-01",
+      "max_date": "2024-12-18",
+      "records": 891,
+      "avg_aqi": 151.8
+    },
+    {
+      "area": "Narnaul",
+      "lat": 28.0444,
+      "lon": 76.1083,
+      "min_date": "2022-04-01",
+      "max_date": "2024-12-17",
+      "records": 880,
+      "avg_aqi": 116.7
+    },
+    {
+      "area": "Palwal",
+      "lat": 28.1447,
+      "lon": 77.3255,
+      "min_date": "2022-04-01",
+      "max_date": "2024-12-18",
+      "records": 914,
+      "avg_aqi": 93.2
+    },
+    {
+      "area": "Panchkula",
+      "lat": 30.6946,
+      "lon": 76.8504,
+      "min_date": "2022-04-01",
+      "max_date": "2025-01-28",
+      "records": 903,
+      "avg_aqi": 111.6
+    },
+    {
+      "area": "Rohtak",
+      "lat": 28.8945,
+      "lon": 76.5892,
+      "min_date": "2022-04-01",
+      "max_date": "2025-01-28",
+      "records": 955,
+      "avg_aqi": 149.6
+    },
+    {
+      "area": "Sirsa",
+      "lat": 29.5349,
+      "lon": 75.029,
+      "min_date": "2022-04-01",
+      "max_date": "2024-12-17",
+      "records": 863,
+      "avg_aqi": 126.1
+    },
+    {
+      "area": "Yamunanagar",
+      "lat": 30.128,
+      "lon": 77.2837,
+      "min_date": "2022-04-01",
+      "max_date": "2024-12-18",
+      "records": 876,
+      "avg_aqi": 137.2
+    },
+    {
+      "area": "Kurukshetra",
+      "lat": 29.9657,
+      "lon": 76.837,
+      "min_date": "2022-04-02",
+      "max_date": "2024-12-18",
+      "records": 942,
+      "avg_aqi": 135.0
+    },
+    {
+      "area": "Panipat",
+      "lat": 29.3875,
+      "lon": 76.9682,
+      "min_date": "2022-04-09",
+      "max_date": "2024-12-17",
+      "records": 824,
+      "avg_aqi": 128.2
+    },
+    {
+      "area": "Sonipat",
+      "lat": 28.9948,
+      "lon": 77.0194,
+      "min_date": "2022-05-07",
+      "max_date": "2024-12-18",
+      "records": 703,
+      "avg_aqi": 156.2
+    },
+    {
+      "area": "Panchgaon",
+      "lat": 21.0227,
+      "lon": 79.1672,
+      "min_date": "2025-04-02",
+      "max_date": "2025-04-30",
+      "records": 25,
+      "avg_aqi": 130.5
+    }
+  ],
+  "Himachal Pradesh": [
+    {
+      "area": "Baddi",
+      "lat": 30.9578,
+      "lon": 76.7914,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1066,
+      "avg_aqi": 160.3
+    }
+  ],
+  "Jammu and Kashmir": [
+    {
+      "area": "Srinagar",
+      "lat": 34.0857,
+      "lon": 74.8055,
+      "min_date": "2022-04-01",
+      "max_date": "2023-12-01",
+      "records": 438,
+      "avg_aqi": 69.5
+    }
+  ],
+  "Karnataka": [
+    {
+      "area": "Bagalkot",
+      "lat": 16.1867,
+      "lon": 75.6961,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1025,
+      "avg_aqi": 46.5
+    },
+    {
+      "area": "Bengaluru",
+      "lat": 12.9719,
+      "lon": 77.5937,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-22",
+      "records": 1665,
+      "avg_aqi": 75.2
+    },
+    {
+      "area": "Chikkaballapur",
+      "lat": 0.0,
+      "lon": 0.0,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1059,
+      "avg_aqi": 64.0
+    },
+    {
+      "area": "Chikkamagaluru",
+      "lat": 13.3223,
+      "lon": 75.774,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 937,
+      "avg_aqi": 47.5
+    },
+    {
+      "area": "Davanagere",
+      "lat": 0.0,
+      "lon": 0.0,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 915,
+      "avg_aqi": 56.9
+    },
+    {
+      "area": "Gadag",
+      "lat": 15.4298,
+      "lon": 75.6297,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-26",
+      "records": 881,
+      "avg_aqi": 55.2
+    },
+    {
+      "area": "Hassan",
+      "lat": 13.0071,
+      "lon": 76.0962,
+      "min_date": "2022-04-01",
+      "max_date": "2025-03-24",
+      "records": 770,
+      "avg_aqi": 63.1
+    },
+    {
+      "area": "Hubballi",
+      "lat": 15.3478,
+      "lon": 75.1338,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1066,
+      "avg_aqi": 72.2
+    },
+    {
+      "area": "Kalaburagi",
+      "lat": 17.3358,
+      "lon": 76.8376,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 954,
+      "avg_aqi": 64.4
+    },
+    {
+      "area": "Kolar",
+      "lat": 13.1377,
+      "lon": 78.13,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-20",
+      "records": 566,
+      "avg_aqi": 76.4
+    },
+    {
+      "area": "Koppal",
+      "lat": 15.3452,
+      "lon": 76.1548,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 853,
+      "avg_aqi": 68.6
+    },
+    {
+      "area": "Madikeri",
+      "lat": 12.426,
+      "lon": 75.7382,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1062,
+      "avg_aqi": 37.8
+    },
+    {
+      "area": "Mangalore",
+      "lat": 12.8465,
+      "lon": 74.8406,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-24",
+      "records": 1003,
+      "avg_aqi": 70.4
+    },
+    {
+      "area": "Mysuru",
+      "lat": 12.2979,
+      "lon": 76.6393,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-29",
+      "records": 1083,
+      "avg_aqi": 51.0
+    },
+    {
+      "area": "Ramanagara",
+      "lat": 17.0047,
+      "lon": 80.7108,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1051,
+      "avg_aqi": 60.6
+    },
+    {
+      "area": "Shivamogga",
+      "lat": 13.9316,
+      "lon": 75.5679,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1085,
+      "avg_aqi": 54.8
+    },
+    {
+      "area": "Udupi",
+      "lat": 13.3347,
+      "lon": 74.7462,
+      "min_date": "2022-04-01",
+      "max_date": "2025-03-13",
+      "records": 523,
+      "avg_aqi": 69.7
+    },
+    {
+      "area": "Vijayapura",
+      "lat": 16.8244,
+      "lon": 75.7154,
+      "min_date": "2022-04-01",
+      "max_date": "2025-03-03",
+      "records": 1006,
+      "avg_aqi": 50.4
+    },
+    {
+      "area": "Yadgir",
+      "lat": 16.7701,
+      "lon": 77.1376,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 994,
+      "avg_aqi": 65.6
+    },
+    {
+      "area": "Raichur",
+      "lat": 16.2055,
+      "lon": 77.3557,
+      "min_date": "2022-04-02",
+      "max_date": "2025-03-07",
+      "records": 679,
+      "avg_aqi": 94.1
+    },
+    {
+      "area": "Bidar",
+      "lat": 17.908,
+      "lon": 77.5152,
+      "min_date": "2022-04-03",
+      "max_date": "2025-04-29",
+      "records": 587,
+      "avg_aqi": 80.9
+    },
+    {
+      "area": "Chamarajanagar",
+      "lat": 11.9231,
+      "lon": 76.9395,
+      "min_date": "2022-04-04",
+      "max_date": "2025-04-30",
+      "records": 1075,
+      "avg_aqi": 43.1
+    },
+    {
+      "area": "Haveri",
+      "lat": 14.7935,
+      "lon": 75.4045,
+      "min_date": "2022-04-12",
+      "max_date": "2025-04-29",
+      "records": 813,
+      "avg_aqi": 67.8
+    },
+    {
+      "area": "Belgaum",
+      "lat": 15.8593,
+      "lon": 74.6183,
+      "min_date": "2022-08-09",
+      "max_date": "2025-04-30",
+      "records": 822,
+      "avg_aqi": 69.8
+    },
+    {
+      "area": "Dharwad",
+      "lat": 15.4601,
+      "lon": 75.0078,
+      "min_date": "2022-11-22",
+      "max_date": "2025-04-30",
+      "records": 663,
+      "avg_aqi": 73.5
+    },
+    {
+      "area": "Tumakuru",
+      "lat": 13.3414,
+      "lon": 77.1022,
+      "min_date": "2023-04-02",
+      "max_date": "2025-04-19",
+      "records": 594,
+      "avg_aqi": 102.7
+    },
+    {
+      "area": "Karwar",
+      "lat": 14.8136,
+      "lon": 74.1297,
+      "min_date": "2023-12-21",
+      "max_date": "2025-03-25",
+      "records": 308,
+      "avg_aqi": 58.0
+    }
+  ],
+  "Kerala": [
+    {
+      "area": "Ernakulam",
+      "lat": 9.9671,
+      "lon": 76.2904,
+      "min_date": "2022-04-01",
+      "max_date": "2022-11-19",
+      "records": 198,
+      "avg_aqi": 46.9
+    },
+    {
+      "area": "Kannur",
+      "lat": 11.8675,
+      "lon": 75.3576,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-28",
+      "records": 825,
+      "avg_aqi": 66.0
+    },
+    {
+      "area": "Kochi",
+      "lat": 9.9399,
+      "lon": 76.2602,
+      "min_date": "2022-04-01",
+      "max_date": "2024-03-13",
+      "records": 570,
+      "avg_aqi": 100.0
+    },
+    {
+      "area": "Kollam",
+      "lat": 8.8811,
+      "lon": 76.5847,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 914,
+      "avg_aqi": 79.3
+    },
+    {
+      "area": "Kozhikode",
+      "lat": 11.248,
+      "lon": 75.7804,
+      "min_date": "2022-04-01",
+      "max_date": "2023-03-15",
+      "records": 281,
+      "avg_aqi": 67.4
+    },
+    {
+      "area": "Thiruvananthapuram",
+      "lat": 8.4855,
+      "lon": 76.9492,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1118,
+      "avg_aqi": 54.2
+    },
+    {
+      "area": "Thrissur",
+      "lat": 10.5167,
+      "lon": 76.2167,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 863,
+      "avg_aqi": 64.6
+    },
+    {
+      "area": "Eloor",
+      "lat": 0.0,
+      "lon": 0.0,
+      "min_date": "2022-04-02",
+      "max_date": "2025-04-30",
+      "records": 805,
+      "avg_aqi": 63.3
+    }
+  ],
+  "Madhya Pradesh": [
+    {
+      "area": "Bhopal",
+      "lat": 23.2547,
+      "lon": 77.4029,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1114,
+      "avg_aqi": 118.8
+    },
+    {
+      "area": "Damoh",
+      "lat": 23.8331,
+      "lon": 79.4419,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 814,
+      "avg_aqi": 58.6
+    },
+    {
+      "area": "Dewas",
+      "lat": 22.9658,
+      "lon": 76.0553,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1035,
+      "avg_aqi": 103.2
+    },
+    {
+      "area": "Gwalior",
+      "lat": 26.2298,
+      "lon": 78.1734,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1089,
+      "avg_aqi": 144.8
+    },
+    {
+      "area": "Indore",
+      "lat": 22.7179,
+      "lon": 75.8333,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1112,
+      "avg_aqi": 97.6
+    },
+    {
+      "area": "Jabalpur",
+      "lat": 23.167,
+      "lon": 79.9501,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1101,
+      "avg_aqi": 112.1
+    },
+    {
+      "area": "Katni",
+      "lat": 23.8378,
+      "lon": 80.394,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1050,
+      "avg_aqi": 123.7
+    },
+    {
+      "area": "Mandideep",
+      "lat": 23.0817,
+      "lon": 77.5333,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-29",
+      "records": 1056,
+      "avg_aqi": 122.2
+    },
+    {
+      "area": "Pithampur",
+      "lat": 22.602,
+      "lon": 75.6965,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1103,
+      "avg_aqi": 118.1
+    },
+    {
+      "area": "Ratlam",
+      "lat": 23.3303,
+      "lon": 75.0403,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1059,
+      "avg_aqi": 103.1
+    },
+    {
+      "area": "Satna",
+      "lat": 24.5773,
+      "lon": 80.8272,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-23",
+      "records": 1038,
+      "avg_aqi": 76.0
+    },
+    {
+      "area": "Singrauli",
+      "lat": 24.1997,
+      "lon": 82.6753,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1028,
+      "avg_aqi": 165.1
+    },
+    {
+      "area": "Ujjain",
+      "lat": 23.1824,
+      "lon": 75.7764,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 988,
+      "avg_aqi": 119.8
+    },
+    {
+      "area": "Sagar",
+      "lat": 23.8388,
+      "lon": 78.7387,
+      "min_date": "2022-04-03",
+      "max_date": "2025-04-30",
+      "records": 1072,
+      "avg_aqi": 90.9
+    },
+    {
+      "area": "Maihar",
+      "lat": 24.2659,
+      "lon": 80.7606,
+      "min_date": "2022-05-11",
+      "max_date": "2025-04-25",
+      "records": 818,
+      "avg_aqi": 53.0
+    }
+  ],
+  "Maharashtra": [
+    {
+      "area": "Aurangabad",
+      "lat": 19.8776,
+      "lon": 75.3423,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1897,
+      "avg_aqi": 121.7
+    },
+    {
+      "area": "Chandrapur",
+      "lat": 19.9508,
+      "lon": 79.2952,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1104,
+      "avg_aqi": 108.3
+    },
+    {
+      "area": "Kalyan",
+      "lat": 19.2437,
+      "lon": 73.1355,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-21",
+      "records": 1047,
+      "avg_aqi": 107.5
+    },
+    {
+      "area": "Mumbai",
+      "lat": 19.0728,
+      "lon": 72.8826,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-22",
+      "records": 1664,
+      "avg_aqi": 95.8
+    },
+    {
+      "area": "Nagpur",
+      "lat": 21.1463,
+      "lon": 79.0849,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1108,
+      "avg_aqi": 111.1
+    },
+    {
+      "area": "Nashik",
+      "lat": 19.9973,
+      "lon": 73.791,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1006,
+      "avg_aqi": 84.6
+    },
+    {
+      "area": "Navi Mumbai",
+      "lat": 19.0368,
+      "lon": 73.0158,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-22",
+      "records": 1159,
+      "avg_aqi": 121.2
+    },
+    {
+      "area": "Pune",
+      "lat": 18.5196,
+      "lon": 73.8554,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 962,
+      "avg_aqi": 112.0
+    },
+    {
+      "area": "Thane",
+      "lat": 19.197,
+      "lon": 72.9635,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-21",
+      "records": 1016,
+      "avg_aqi": 107.9
+    },
+    {
+      "area": "Solapur",
+      "lat": 17.6715,
+      "lon": 75.9104,
+      "min_date": "2022-04-02",
+      "max_date": "2025-04-30",
+      "records": 1033,
+      "avg_aqi": 97.3
+    },
+    {
+      "area": "Kolhapur",
+      "lat": 16.6956,
+      "lon": 74.2317,
+      "min_date": "2023-04-25",
+      "max_date": "2025-04-30",
+      "records": 722,
+      "avg_aqi": 92.5
+    },
+    {
+      "area": "Pimpri Chinchwad",
+      "lat": 18.6187,
+      "lon": 73.8037,
+      "min_date": "2023-05-16",
+      "max_date": "2025-04-30",
+      "records": 591,
+      "avg_aqi": 94.2
+    },
+    {
+      "area": "Latur",
+      "lat": 18.3972,
+      "lon": 76.5678,
+      "min_date": "2023-05-23",
+      "max_date": "2025-04-30",
+      "records": 659,
+      "avg_aqi": 85.9
+    },
+    {
+      "area": "Amravati",
+      "lat": 20.9333,
+      "lon": 77.75,
+      "min_date": "2023-06-01",
+      "max_date": "2025-04-30",
+      "records": 694,
+      "avg_aqi": 90.9
+    },
+    {
+      "area": "Akola",
+      "lat": 20.7096,
+      "lon": 76.9981,
+      "min_date": "2023-06-13",
+      "max_date": "2025-04-30",
+      "records": 676,
+      "avg_aqi": 94.3
+    },
+    {
+      "area": "Jalgaon",
+      "lat": 21.0029,
+      "lon": 75.566,
+      "min_date": "2023-06-13",
+      "max_date": "2025-04-30",
+      "records": 664,
+      "avg_aqi": 110.5
+    },
+    {
+      "area": "Jalna",
+      "lat": 19.841,
+      "lon": 75.8864,
+      "min_date": "2023-06-13",
+      "max_date": "2025-04-30",
+      "records": 580,
+      "avg_aqi": 110.1
+    },
+    {
+      "area": "Sangli",
+      "lat": 16.8544,
+      "lon": 74.5642,
+      "min_date": "2023-06-13",
+      "max_date": "2025-04-30",
+      "records": 625,
+      "avg_aqi": 85.4
+    },
+    {
+      "area": "Badlapur",
+      "lat": 19.1552,
+      "lon": 73.2655,
+      "min_date": "2023-06-17",
+      "max_date": "2025-04-30",
+      "records": 632,
+      "avg_aqi": 116.5
+    },
+    {
+      "area": "Nanded",
+      "lat": 19.1602,
+      "lon": 77.315,
+      "min_date": "2023-06-18",
+      "max_date": "2025-04-30",
+      "records": 586,
+      "avg_aqi": 102.8
+    },
+    {
+      "area": "Belapur",
+      "lat": 19.5646,
+      "lon": 74.6487,
+      "min_date": "2023-06-20",
+      "max_date": "2025-04-30",
+      "records": 620,
+      "avg_aqi": 101.2
+    },
+    {
+      "area": "Dhule",
+      "lat": 20.9013,
+      "lon": 74.7774,
+      "min_date": "2023-06-20",
+      "max_date": "2025-04-30",
+      "records": 616,
+      "avg_aqi": 103.1
+    },
+    {
+      "area": "Parbhani",
+      "lat": 19.2686,
+      "lon": 76.7708,
+      "min_date": "2023-06-20",
+      "max_date": "2025-04-30",
+      "records": 567,
+      "avg_aqi": 110.4
+    },
+    {
+      "area": "Bhiwandi",
+      "lat": 19.3002,
+      "lon": 73.0588,
+      "min_date": "2023-06-21",
+      "max_date": "2026-10-21",
+      "records": 622,
+      "avg_aqi": 107.0
+    },
+    {
+      "area": "Mahad",
+      "lat": 18.0833,
+      "lon": 73.4167,
+      "min_date": "2023-06-27",
+      "max_date": "2025-04-30",
+      "records": 620,
+      "avg_aqi": 93.0
+    },
+    {
+      "area": "Ulhasnagar",
+      "lat": 19.2167,
+      "lon": 73.15,
+      "min_date": "2023-07-23",
+      "max_date": "2026-10-21",
+      "records": 651,
+      "avg_aqi": 116.3
+    },
+    {
+      "area": "Ahmednagar",
+      "lat": 23.5989,
+      "lon": 72.966,
+      "min_date": "2024-03-01",
+      "max_date": "2025-04-30",
+      "records": 348,
+      "avg_aqi": 121.7
+    },
+    {
+      "area": "Boisar",
+      "lat": 19.8036,
+      "lon": 72.756,
+      "min_date": "2024-03-01",
+      "max_date": "2025-04-30",
+      "records": 379,
+      "avg_aqi": 99.9
+    },
+    {
+      "area": "Malegaon",
+      "lat": 20.5497,
+      "lon": 74.5346,
+      "min_date": "2024-03-01",
+      "max_date": "2025-04-30",
+      "records": 399,
+      "avg_aqi": 112.0
+    },
+    {
+      "area": "Mira Bhayandar",
+      "lat": 0.0,
+      "lon": 0.0,
+      "min_date": "2024-03-01",
+      "max_date": "2025-04-30",
+      "records": 380,
+      "avg_aqi": 96.9
+    },
+    {
+      "area": "Virar",
+      "lat": 19.4559,
+      "lon": 72.8114,
+      "min_date": "2024-03-01",
+      "max_date": "2025-04-30",
+      "records": 404,
+      "avg_aqi": 98.1
+    }
+  ],
+  "Meghalaya": [
+    {
+      "area": "Shillong",
+      "lat": 25.5689,
+      "lon": 91.8831,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 874,
+      "avg_aqi": 62.7
+    }
+  ],
+  "Mizoram": [
+    {
+      "area": "Aizawl",
+      "lat": 23.7289,
+      "lon": 92.7179,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1000,
+      "avg_aqi": 47.2
+    }
+  ],
+  "Odisha": [
+    {
+      "area": "Brajrajnagar",
+      "lat": 21.8167,
+      "lon": 83.9167,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 762,
+      "avg_aqi": 87.0
+    },
+    {
+      "area": "Talcher",
+      "lat": 20.9493,
+      "lon": 85.2335,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 956,
+      "avg_aqi": 129.7
+    },
+    {
+      "area": "Baripada",
+      "lat": 21.9346,
+      "lon": 86.7285,
+      "min_date": "2022-11-27",
+      "max_date": "2026-10-21",
+      "records": 846,
+      "avg_aqi": 123.0
+    },
+    {
+      "area": "Bileipada",
+      "lat": 0.0,
+      "lon": 0.0,
+      "min_date": "2022-11-27",
+      "max_date": "2025-04-25",
+      "records": 781,
+      "avg_aqi": 151.4
+    },
+    {
+      "area": "Keonjhar",
+      "lat": 21.6318,
+      "lon": 85.5969,
+      "min_date": "2022-11-27",
+      "max_date": "2025-04-30",
+      "records": 755,
+      "avg_aqi": 112.1
+    },
+    {
+      "area": "Nayagarh",
+      "lat": 20.1288,
+      "lon": 85.0963,
+      "min_date": "2022-11-27",
+      "max_date": "2025-04-30",
+      "records": 751,
+      "avg_aqi": 118.1
+    },
+    {
+      "area": "Rairangpur",
+      "lat": 22.2667,
+      "lon": 86.1739,
+      "min_date": "2022-11-27",
+      "max_date": "2025-04-29",
+      "records": 748,
+      "avg_aqi": 116.7
+    },
+    {
+      "area": "Rourkela",
+      "lat": 22.225,
+      "lon": 84.8641,
+      "min_date": "2022-11-27",
+      "max_date": "2025-04-30",
+      "records": 872,
+      "avg_aqi": 131.3
+    },
+    {
+      "area": "Suakati",
+      "lat": 21.6143,
+      "lon": 85.5154,
+      "min_date": "2022-11-27",
+      "max_date": "2025-04-30",
+      "records": 799,
+      "avg_aqi": 121.0
+    },
+    {
+      "area": "Tensa",
+      "lat": 21.8728,
+      "lon": 85.1713,
+      "min_date": "2022-11-27",
+      "max_date": "2025-04-29",
+      "records": 750,
+      "avg_aqi": 96.8
+    },
+    {
+      "area": "Balasore",
+      "lat": 21.4927,
+      "lon": 86.9335,
+      "min_date": "2023-10-24",
+      "max_date": "2025-04-30",
+      "records": 525,
+      "avg_aqi": 141.3
+    },
+    {
+      "area": "Angul",
+      "lat": 20.8409,
+      "lon": 85.1019,
+      "min_date": "2023-10-26",
+      "max_date": "2025-04-30",
+      "records": 509,
+      "avg_aqi": 163.7
+    },
+    {
+      "area": "Bhubaneswar",
+      "lat": 20.2724,
+      "lon": 85.8338,
+      "min_date": "2023-11-02",
+      "max_date": "2025-04-30",
+      "records": 531,
+      "avg_aqi": 123.9
+    },
+    {
+      "area": "Byasanagar",
+      "lat": 20.9557,
+      "lon": 86.1264,
+      "min_date": "2023-11-02",
+      "max_date": "2025-04-30",
+      "records": 518,
+      "avg_aqi": 130.6
+    },
+    {
+      "area": "Cuttack",
+      "lat": 20.465,
+      "lon": 85.8793,
+      "min_date": "2023-11-02",
+      "max_date": "2025-04-30",
+      "records": 516,
+      "avg_aqi": 128.3
+    },
+    {
+      "area": "Barbil",
+      "lat": 22.1019,
+      "lon": 85.3775,
+      "min_date": "2023-11-03",
+      "max_date": "2025-04-30",
+      "records": 519,
+      "avg_aqi": 144.2
+    }
+  ],
+  "Puducherry": [
+    {
+      "area": "Puducherry",
+      "lat": 11.9338,
+      "lon": 79.8298,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1070,
+      "avg_aqi": 56.5
+    }
+  ],
+  "Punjab": [
+    {
+      "area": "Amritsar",
+      "lat": 31.6223,
+      "lon": 74.8753,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-24",
+      "records": 1041,
+      "avg_aqi": 121.9
+    },
+    {
+      "area": "Bathinda",
+      "lat": 30.2075,
+      "lon": 74.9389,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1009,
+      "avg_aqi": 108.8
+    },
+    {
+      "area": "Jalandhar",
+      "lat": 31.3256,
+      "lon": 75.5792,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1107,
+      "avg_aqi": 109.9
+    },
+    {
+      "area": "Khanna",
+      "lat": 30.7055,
+      "lon": 76.222,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1100,
+      "avg_aqi": 100.2
+    },
+    {
+      "area": "Ludhiana",
+      "lat": 30.912,
+      "lon": 75.8538,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1112,
+      "avg_aqi": 128.1
+    },
+    {
+      "area": "Mandi Gobindgarh",
+      "lat": 0.0,
+      "lon": 0.0,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-27",
+      "records": 1010,
+      "avg_aqi": 147.5
+    },
+    {
+      "area": "Patiala",
+      "lat": 30.3362,
+      "lon": 76.3922,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1110,
+      "avg_aqi": 103.2
+    },
+    {
+      "area": "Rupnagar",
+      "lat": 30.2101,
+      "lon": 73.9943,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-21",
+      "records": 999,
+      "avg_aqi": 126.1
+    }
+  ],
+  "Rajasthan": [
+    {
+      "area": "Ajmer",
+      "lat": 26.4521,
+      "lon": 74.6387,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1056,
+      "avg_aqi": 101.1
+    },
+    {
+      "area": "Alwar",
+      "lat": 27.5625,
+      "lon": 76.625,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1110,
+      "avg_aqi": 89.9
+    },
+    {
+      "area": "Bhiwadi",
+      "lat": 28.2102,
+      "lon": 76.8606,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1093,
+      "avg_aqi": 181.6
+    },
+    {
+      "area": "Jaipur",
+      "lat": 26.9196,
+      "lon": 75.7878,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1125,
+      "avg_aqi": 131.4
+    },
+    {
+      "area": "Jodhpur",
+      "lat": 26.2684,
+      "lon": 73.0059,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1114,
+      "avg_aqi": 126.7
+    },
+    {
+      "area": "Pali",
+      "lat": 25.7728,
+      "lon": 73.3234,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1051,
+      "avg_aqi": 124.6
+    },
+    {
+      "area": "Udaipur",
+      "lat": 24.5858,
+      "lon": 73.7135,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1108,
+      "avg_aqi": 110.1
+    },
+    {
+      "area": "Kota",
+      "lat": 25.1825,
+      "lon": 75.8391,
+      "min_date": "2022-04-02",
+      "max_date": "2025-04-30",
+      "records": 1116,
+      "avg_aqi": 131.1
+    },
+    {
+      "area": "Bharatpur",
+      "lat": 27.2173,
+      "lon": 77.4901,
+      "min_date": "2023-02-02",
+      "max_date": "2025-04-30",
+      "records": 782,
+      "avg_aqi": 137.1
+    },
+    {
+      "area": "Barmer",
+      "lat": 25.7457,
+      "lon": 71.3921,
+      "min_date": "2023-03-13",
+      "max_date": "2025-04-30",
+      "records": 749,
+      "avg_aqi": 105.0
+    },
+    {
+      "area": "Bikaner",
+      "lat": 28.0176,
+      "lon": 73.3149,
+      "min_date": "2023-03-13",
+      "max_date": "2025-04-30",
+      "records": 737,
+      "avg_aqi": 156.8
+    },
+    {
+      "area": "Churu",
+      "lat": 28.3041,
+      "lon": 74.9672,
+      "min_date": "2023-03-13",
+      "max_date": "2025-04-30",
+      "records": 698,
+      "avg_aqi": 139.0
+    },
+    {
+      "area": "Dausa",
+      "lat": 26.89,
+      "lon": 76.3358,
+      "min_date": "2023-03-13",
+      "max_date": "2025-04-30",
+      "records": 742,
+      "avg_aqi": 143.1
+    },
+    {
+      "area": "Dholpur",
+      "lat": 26.6929,
+      "lon": 77.8797,
+      "min_date": "2023-03-13",
+      "max_date": "2025-04-30",
+      "records": 658,
+      "avg_aqi": 140.5
+    },
+    {
+      "area": "Hanumangarh",
+      "lat": 29.5818,
+      "lon": 74.3294,
+      "min_date": "2023-03-13",
+      "max_date": "2025-04-27",
+      "records": 707,
+      "avg_aqi": 177.8
+    },
+    {
+      "area": "Jhalawar",
+      "lat": 24.5963,
+      "lon": 76.165,
+      "min_date": "2023-03-13",
+      "max_date": "2025-04-30",
+      "records": 755,
+      "avg_aqi": 106.9
+    },
+    {
+      "area": "Jhunjhunu",
+      "lat": 28.1256,
+      "lon": 75.398,
+      "min_date": "2023-03-13",
+      "max_date": "2025-04-30",
+      "records": 759,
+      "avg_aqi": 151.2
+    },
+    {
+      "area": "Karauli",
+      "lat": 26.4983,
+      "lon": 77.0276,
+      "min_date": "2023-03-13",
+      "max_date": "2025-04-30",
+      "records": 686,
+      "avg_aqi": 108.3
+    },
+    {
+      "area": "Pratapgarh",
+      "lat": 24.0322,
+      "lon": 74.7816,
+      "min_date": "2023-03-13",
+      "max_date": "2025-04-30",
+      "records": 741,
+      "avg_aqi": 100.1
+    },
+    {
+      "area": "Sawai Madhopur",
+      "lat": 26.023,
+      "lon": 76.3441,
+      "min_date": "2023-03-13",
+      "max_date": "2025-04-30",
+      "records": 703,
+      "avg_aqi": 120.6
+    },
+    {
+      "area": "Sikar",
+      "lat": 27.6121,
+      "lon": 75.14,
+      "min_date": "2023-03-13",
+      "max_date": "2025-04-30",
+      "records": 755,
+      "avg_aqi": 139.0
+    },
+    {
+      "area": "Sirohi",
+      "lat": 24.8884,
+      "lon": 72.8479,
+      "min_date": "2023-03-13",
+      "max_date": "2025-04-30",
+      "records": 665,
+      "avg_aqi": 90.1
+    },
+    {
+      "area": "Sri Ganganagar",
+      "lat": 29.9201,
+      "lon": 73.875,
+      "min_date": "2023-03-13",
+      "max_date": "2025-04-30",
+      "records": 709,
+      "avg_aqi": 197.9
+    },
+    {
+      "area": "Tonk",
+      "lat": 26.1664,
+      "lon": 75.7882,
+      "min_date": "2023-03-13",
+      "max_date": "2025-04-30",
+      "records": 671,
+      "avg_aqi": 142.9
+    },
+    {
+      "area": "Chittorgarh",
+      "lat": 24.8896,
+      "lon": 74.624,
+      "min_date": "2023-03-14",
+      "max_date": "2025-04-30",
+      "records": 691,
+      "avg_aqi": 129.5
+    },
+    {
+      "area": "Rajsamand",
+      "lat": 25.0714,
+      "lon": 73.8798,
+      "min_date": "2023-03-14",
+      "max_date": "2025-04-30",
+      "records": 718,
+      "avg_aqi": 96.8
+    },
+    {
+      "area": "Banswara",
+      "lat": 23.5411,
+      "lon": 74.4425,
+      "min_date": "2023-03-15",
+      "max_date": "2025-04-30",
+      "records": 743,
+      "avg_aqi": 116.8
+    },
+    {
+      "area": "Bhilwara",
+      "lat": 25.3471,
+      "lon": 74.6408,
+      "min_date": "2023-05-16",
+      "max_date": "2025-04-30",
+      "records": 606,
+      "avg_aqi": 112.8
+    },
+    {
+      "area": "Bundi",
+      "lat": 25.4385,
+      "lon": 75.6373,
+      "min_date": "2023-05-16",
+      "max_date": "2025-04-30",
+      "records": 642,
+      "avg_aqi": 133.2
+    },
+    {
+      "area": "Jaisalmer",
+      "lat": 26.9176,
+      "lon": 70.9039,
+      "min_date": "2023-05-16",
+      "max_date": "2025-04-30",
+      "records": 691,
+      "avg_aqi": 128.3
+    },
+    {
+      "area": "Nagaur",
+      "lat": 27.202,
+      "lon": 73.7339,
+      "min_date": "2023-06-08",
+      "max_date": "2025-04-30",
+      "records": 659,
+      "avg_aqi": 135.3
+    },
+    {
+      "area": "Baran",
+      "lat": 25.1,
+      "lon": 76.5167,
+      "min_date": "2023-06-20",
+      "max_date": "2025-04-30",
+      "records": 645,
+      "avg_aqi": 114.2
+    },
+    {
+      "area": "Jalore",
+      "lat": 25.3456,
+      "lon": 72.6156,
+      "min_date": "2023-11-14",
+      "max_date": "2025-04-30",
+      "records": 512,
+      "avg_aqi": 127.8
+    },
+    {
+      "area": "Dungarpur",
+      "lat": 23.8431,
+      "lon": 73.7147,
+      "min_date": "2024-03-01",
+      "max_date": "2025-04-30",
+      "records": 388,
+      "avg_aqi": 103.7
+    }
+  ],
+  "Tamil Nadu": [
+    {
+      "area": "Chennai",
+      "lat": 13.0878,
+      "lon": 80.2785,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-22",
+      "records": 1663,
+      "avg_aqi": 76.1
+    },
+    {
+      "area": "Coimbatore",
+      "lat": 11.0055,
+      "lon": 76.9661,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 736,
+      "avg_aqi": 69.6
+    },
+    {
+      "area": "Thoothukudi",
+      "lat": 8.7674,
+      "lon": 78.1342,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1087,
+      "avg_aqi": 57.9
+    },
+    {
+      "area": "Gummidipoondi",
+      "lat": 0.0,
+      "lon": 0.0,
+      "min_date": "2022-04-06",
+      "max_date": "2025-04-30",
+      "records": 882,
+      "avg_aqi": 107.4
+    },
+    {
+      "area": "Ramanathapuram",
+      "lat": 9.3716,
+      "lon": 78.8308,
+      "min_date": "2022-08-09",
+      "max_date": "2025-04-30",
+      "records": 824,
+      "avg_aqi": 48.0
+    },
+    {
+      "area": "Hosur",
+      "lat": 12.7365,
+      "lon": 77.8326,
+      "min_date": "2022-08-10",
+      "max_date": "2025-04-30",
+      "records": 370,
+      "avg_aqi": 85.7
+    },
+    {
+      "area": "Chengalpattu",
+      "lat": 12.6918,
+      "lon": 79.9766,
+      "min_date": "2022-08-13",
+      "max_date": "2025-04-30",
+      "records": 374,
+      "avg_aqi": 82.4
+    },
+    {
+      "area": "Ooty",
+      "lat": 11.4134,
+      "lon": 76.6952,
+      "min_date": "2022-08-27",
+      "max_date": "2025-04-30",
+      "records": 696,
+      "avg_aqi": 60.9
+    },
+    {
+      "area": "Tiruppur",
+      "lat": 11.1154,
+      "lon": 77.3546,
+      "min_date": "2022-08-27",
+      "max_date": "2025-04-30",
+      "records": 680,
+      "avg_aqi": 77.4
+    },
+    {
+      "area": "Vellore",
+      "lat": 12.9184,
+      "lon": 79.1325,
+      "min_date": "2022-08-28",
+      "max_date": "2025-04-30",
+      "records": 401,
+      "avg_aqi": 73.7
+    },
+    {
+      "area": "Salem",
+      "lat": 11.6538,
+      "lon": 78.1554,
+      "min_date": "2022-09-03",
+      "max_date": "2025-04-30",
+      "records": 485,
+      "avg_aqi": 73.4
+    },
+    {
+      "area": "Dindigul",
+      "lat": 10.369,
+      "lon": 77.9804,
+      "min_date": "2022-09-13",
+      "max_date": "2025-04-30",
+      "records": 387,
+      "avg_aqi": 98.9
+    },
+    {
+      "area": "Kanchipuram",
+      "lat": 12.8352,
+      "lon": 79.7001,
+      "min_date": "2022-10-27",
+      "max_date": "2025-04-30",
+      "records": 429,
+      "avg_aqi": 56.8
+    },
+    {
+      "area": "Ariyalur",
+      "lat": 11.1385,
+      "lon": 79.0756,
+      "min_date": "2022-12-21",
+      "max_date": "2025-04-30",
+      "records": 696,
+      "avg_aqi": 51.7
+    },
+    {
+      "area": "Cuddalore",
+      "lat": 11.7562,
+      "lon": 79.7669,
+      "min_date": "2023-03-14",
+      "max_date": "2025-04-30",
+      "records": 667,
+      "avg_aqi": 65.4
+    },
+    {
+      "area": "Palkalaiperur",
+      "lat": 0.0,
+      "lon": 0.0,
+      "min_date": "2023-03-17",
+      "max_date": "2025-04-30",
+      "records": 520,
+      "avg_aqi": 43.3
+    },
+    {
+      "area": "Tiruchirappalli",
+      "lat": 10.8155,
+      "lon": 78.6965,
+      "min_date": "2023-12-21",
+      "max_date": "2025-04-29",
+      "records": 195,
+      "avg_aqi": 61.4
+    },
+    {
+      "area": "Virudhunagar",
+      "lat": 0.0,
+      "lon": 0.0,
+      "min_date": "2024-03-02",
+      "max_date": "2025-04-25",
+      "records": 241,
+      "avg_aqi": 60.5
+    },
+    {
+      "area": "Tirunelveli",
+      "lat": 8.7274,
+      "lon": 77.6838,
+      "min_date": "2024-08-12",
+      "max_date": "2025-04-30",
+      "records": 227,
+      "avg_aqi": 32.1
+    },
+    {
+      "area": "Karur",
+      "lat": 10.9577,
+      "lon": 78.081,
+      "min_date": "2024-10-09",
+      "max_date": "2025-04-21",
+      "records": 155,
+      "avg_aqi": 69.3
+    },
+    {
+      "area": "Madurai",
+      "lat": 9.919,
+      "lon": 78.1195,
+      "min_date": "2024-10-09",
+      "max_date": "2025-04-30",
+      "records": 187,
+      "avg_aqi": 55.9
+    },
+    {
+      "area": "Pudukottai",
+      "lat": 12.5016,
+      "lon": 78.5905,
+      "min_date": "2024-10-09",
+      "max_date": "2025-04-30",
+      "records": 163,
+      "avg_aqi": 67.4
+    },
+    {
+      "area": "Thanjavur",
+      "lat": 10.7852,
+      "lon": 79.1391,
+      "min_date": "2024-10-09",
+      "max_date": "2025-04-30",
+      "records": 162,
+      "avg_aqi": 44.7
+    },
+    {
+      "area": "Nagapattinam",
+      "lat": 10.7638,
+      "lon": 79.8431,
+      "min_date": "2024-10-18",
+      "max_date": "2025-04-30",
+      "records": 122,
+      "avg_aqi": 51.5
+    },
+    {
+      "area": "Ranipet",
+      "lat": 12.9247,
+      "lon": 79.3333,
+      "min_date": "2024-10-18",
+      "max_date": "2025-04-30",
+      "records": 123,
+      "avg_aqi": 82.3
+    },
+    {
+      "area": "Namakkal",
+      "lat": 11.2213,
+      "lon": 78.1652,
+      "min_date": "2025-04-02",
+      "max_date": "2025-04-30",
+      "records": 22,
+      "avg_aqi": 60.0
+    }
+  ],
+  "Telangana": [
+    {
+      "area": "Hyderabad",
+      "lat": 17.384,
+      "lon": 78.4564,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1125,
+      "avg_aqi": 81.0
+    }
+  ],
+  "Tripura": [
+    {
+      "area": "Agartala",
+      "lat": 23.8361,
+      "lon": 91.2794,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1035,
+      "avg_aqi": 126.7
+    }
+  ],
+  "Uttar Pradesh": [
+    {
+      "area": "Agra",
+      "lat": 27.1833,
+      "lon": 78.0167,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1125,
+      "avg_aqi": 84.2
+    },
+    {
+      "area": "Baghpat",
+      "lat": 28.9448,
+      "lon": 77.2186,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 981,
+      "avg_aqi": 157.3
+    },
+    {
+      "area": "Bulandshahr",
+      "lat": 28.4039,
+      "lon": 77.8577,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1115,
+      "avg_aqi": 148.1
+    },
+    {
+      "area": "Firozabad",
+      "lat": 27.1509,
+      "lon": 78.3978,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1088,
+      "avg_aqi": 88.3
+    },
+    {
+      "area": "Ghaziabad",
+      "lat": 28.6654,
+      "lon": 77.4391,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-22",
+      "records": 1165,
+      "avg_aqi": 181.7
+    },
+    {
+      "area": "Gorakhpur",
+      "lat": 26.7663,
+      "lon": 83.3689,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1064,
+      "avg_aqi": 101.4
+    },
+    {
+      "area": "Greater Noida",
+      "lat": 28.4962,
+      "lon": 77.536,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1123,
+      "avg_aqi": 201.6
+    },
+    {
+      "area": "Hapur",
+      "lat": 28.7298,
+      "lon": 77.7807,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1055,
+      "avg_aqi": 137.1
+    },
+    {
+      "area": "Jhansi",
+      "lat": 25.4589,
+      "lon": 78.5799,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1012,
+      "avg_aqi": 92.6
+    },
+    {
+      "area": "Kanpur",
+      "lat": 26.4652,
+      "lon": 80.3498,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1125,
+      "avg_aqi": 111.6
+    },
+    {
+      "area": "Lucknow",
+      "lat": 26.8393,
+      "lon": 80.9231,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1125,
+      "avg_aqi": 131.1
+    },
+    {
+      "area": "Meerut",
+      "lat": 28.98,
+      "lon": 77.7064,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1121,
+      "avg_aqi": 158.4
+    },
+    {
+      "area": "Moradabad",
+      "lat": 28.8389,
+      "lon": 78.7768,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1125,
+      "avg_aqi": 104.1
+    },
+    {
+      "area": "Muzaffarnagar",
+      "lat": 29.4709,
+      "lon": 77.7033,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1024,
+      "avg_aqi": 175.6
+    },
+    {
+      "area": "NOIDA",
+      "lat": 28.58,
+      "lon": 77.33,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-22",
+      "records": 1165,
+      "avg_aqi": 182.9
+    },
+    {
+      "area": "Prayagraj",
+      "lat": 25.4448,
+      "lon": 81.8432,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1121,
+      "avg_aqi": 93.4
+    },
+    {
+      "area": "Varanasi",
+      "lat": 25.3167,
+      "lon": 83.0104,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1125,
+      "avg_aqi": 67.1
+    },
+    {
+      "area": "Vrindavan",
+      "lat": 27.5811,
+      "lon": 77.6966,
+      "min_date": "2022-04-01",
+      "max_date": "2025-04-30",
+      "records": 1064,
+      "avg_aqi": 105.3
+    },
+    {
+      "area": "Bareilly",
+      "lat": 28.3668,
+      "lon": 79.4317,
+      "min_date": "2022-06-03",
+      "max_date": "2025-04-30",
+      "records": 1033,
+      "avg_aqi": 77.2
+    },
+    {
+      "area": "Khurja",
+      "lat": 28.2538,
+      "lon": 77.8554,
+      "min_date": "2022-06-03",
+      "max_date": "2025-04-30",
+      "records": 935,
+      "avg_aqi": 125.3
+    }
+  ],
+  "West Bengal": [
+    {
+      "area": "Asansol",
+      "lat": 23.6833,
+      "lon": 86.9833,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-21",
+      "records": 1106,
+      "avg_aqi": 142.6
+    },
+    {
+      "area": "Durgapur",
+      "lat": 23.5158,
+      "lon": 87.308,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-21",
+      "records": 1063,
+      "avg_aqi": 135.4
+    },
+    {
+      "area": "Haldia",
+      "lat": 22.0605,
+      "lon": 88.1098,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-21",
+      "records": 1093,
+      "avg_aqi": 86.2
+    },
+    {
+      "area": "Howrah",
+      "lat": 22.5769,
+      "lon": 88.3186,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-21",
+      "records": 1165,
+      "avg_aqi": 118.6
+    },
+    {
+      "area": "Kolkata",
+      "lat": 22.5626,
+      "lon": 88.363,
+      "min_date": "2022-04-01",
+      "max_date": "2026-10-22",
+      "records": 1665,
+      "avg_aqi": 97.4
+    },
+    {
+      "area": "Siliguri",
+      "lat": 26.71,
+      "lon": 88.4285,
+      "min_date": "2022-04-02",
+      "max_date": "2025-04-30",
+      "records": 1058,
+      "avg_aqi": 85.5
+    },
+    {
+      "area": "Barrackpore",
+      "lat": 0.0,
+      "lon": 0.0,
+      "min_date": "2023-12-02",
+      "max_date": "2025-04-30",
+      "records": 470,
+      "avg_aqi": 134.5
+    }
+  ],
+  "Nagaland": [
+    {
+      "area": "Kohima",
+      "lat": 25.6747,
+      "lon": 94.111,
+      "min_date": "2022-04-05",
+      "max_date": "2025-04-30",
+      "records": 957,
+      "avg_aqi": 80.5
+    }
+  ],
+  "Arunachal Pradesh": [
+    {
+      "area": "Naharlagun",
+      "lat": 27.1047,
+      "lon": 93.6952,
+      "min_date": "2022-04-07",
+      "max_date": "2025-04-30",
+      "records": 509,
+      "avg_aqi": 54.5
+    }
+  ],
+  "Sikkim": [
+    {
+      "area": "Gangtok",
+      "lat": 27.3257,
+      "lon": 88.6122,
+      "min_date": "2022-04-07",
+      "max_date": "2025-04-19",
+      "records": 836,
+      "avg_aqi": 53.7
+    }
+  ],
+  "Manipur": [
+    {
+      "area": "Imphal",
+      "lat": 24.8081,
+      "lon": 93.9442,
+      "min_date": "2022-04-19",
+      "max_date": "2025-04-30",
+      "records": 826,
+      "avg_aqi": 100.9
+    }
+  ],
+  "Uttarakhand": [
+    {
+      "area": "Dehradun",
+      "lat": 30.3244,
+      "lon": 78.0339,
+      "min_date": "2022-04-23",
+      "max_date": "2025-04-30",
+      "records": 910,
+      "avg_aqi": 98.2
+    },
+    {
+      "area": "Rishikesh",
+      "lat": 30.1078,
+      "lon": 78.2926,
+      "min_date": "2023-02-10",
+      "max_date": "2025-04-30",
+      "records": 752,
+      "avg_aqi": 66.4
+    },
+    {
+      "area": "Kashipur",
+      "lat": 29.214,
+      "lon": 78.9569,
+      "min_date": "2023-02-14",
+      "max_date": "2025-04-30",
+      "records": 670,
+      "avg_aqi": 98.1
+    }
+  ],
+  "Jharkhand": [
+    {
+      "area": "Jorapokhar",
+      "lat": 22.4114,
+      "lon": 85.765,
+      "min_date": "2022-10-11",
+      "max_date": "2025-01-25",
+      "records": 149,
+      "avg_aqi": 144.6
+    },
+    {
+      "area": "Dhanbad",
+      "lat": 23.7976,
+      "lon": 86.4299,
+      "min_date": "2023-02-28",
+      "max_date": "2025-04-30",
+      "records": 546,
+      "avg_aqi": 173.4
+    },
+    {
+      "area": "Pathardih",
+      "lat": 23.6658,
+      "lon": 86.4317,
+      "min_date": "2024-03-01",
+      "max_date": "2024-08-23",
+      "records": 26,
+      "avg_aqi": 103.6
+    }
+  ],
+  "Andaman and Nicobar Islands": [
+    {
+      "area": "Sri Vijaya Puram",
+      "lat": 0.0,
+      "lon": 0.0,
+      "min_date": "2025-02-20",
+      "max_date": "2025-04-29",
+      "records": 58,
+      "avg_aqi": 57.7
+    }
+  ]
+}

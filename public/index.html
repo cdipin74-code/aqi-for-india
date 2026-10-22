@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>India Daily AQI & Early Warning System</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .mono { font-family: 'JetBrains Mono', monospace; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen selection:bg-rose-500 selection:text-white">
+
+  <!-- Background decorative gradients -->
+  <div class="fixed inset-0 overflow-hidden pointer-events-none z-0">
+    <div class="absolute -top-40 -left-40 w-96 h-96 bg-rose-600/20 rounded-full blur-3xl"></div>
+    <div class="absolute top-1/3 -right-40 w-96 h-96 bg-amber-600/15 rounded-full blur-3xl"></div>
+    <div class="absolute -bottom-40 left-1/3 w-96 h-96 bg-sky-600/15 rounded-full blur-3xl"></div>
+  </div>
+
+  <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+
+    <!-- Header -->
+    <header class="text-center mb-10">
+      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 border border-slate-800 text-xs text-slate-400 mb-4 shadow-sm">
+        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+        <span>Nationwide Early-Warning Study & Live Operational Model</span>
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent mb-3">
+        India AQI & Health Hazard Report
+      </h1>
+      <p class="text-slate-400 max-w-2xl mx-auto text-sm sm:text-base">
+        Calibrated multi-horizon early-warning and continuous ground-truth reporting across 292 monitored cities and 32 states in India.
+      </p>
+    </header>
+
+    <!-- Main Card -->
+    <div class="bg-slate-900/90 backdrop-blur-xl border border-slate-800/80 rounded-2xl p-6 sm:p-8 shadow-2xl shadow-black/50 mb-8">
+      <h2 class="text-lg font-semibold text-white mb-6 flex items-center gap-2">
+        <svg class="w-5 h-5 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
+        Select Location & Target Date
+      </h2>
+
+      <!-- Inputs Form -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 mb-6">
+        
+        <!-- State -->
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">1. State / UT</label>
+          <select id="stateSelect" class="w-full bg-slate-950/80 border border-slate-800 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:border-transparent transition">
+            <option value="" disabled selected>Loading states...</option>
+          </select>
+        </div>
+
+        <!-- City -->
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">2. City / Area</label>
+          <select id="citySelect" class="w-full bg-slate-950/80 border border-slate-800 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:border-transparent transition">
+            <option value="" disabled selected>Select a state first</option>
+          </select>
+        </div>
+
+        <!-- Date -->
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">3. Observation Date</label>
+          <input type="date" id="dateInput" value="2024-11-15" class="w-full bg-slate-950/80 border border-slate-800 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:border-transparent transition">
+        </div>
+
+      </div>
+
+      <!-- Quick Preset Buttons -->
+      <div class="flex flex-wrap items-center gap-2 text-xs mb-6">
+        <span class="text-slate-500">Quick Presets:</span>
+        <button type="button" onclick="setPreset('Bihar', 'Patna', '2024-11-15')" class="px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition">
+          Patna (Winter Peak Smog)
+        </button>
+        <button type="button" onclick="setPreset('Delhi', 'Delhi', '2024-11-15')" class="px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition">
+          Delhi (Emergency Peak)
+        </button>
+        <button type="button" onclick="setPreset('Maharashtra', 'Mumbai', '2024-11-15')" class="px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition">
+          Mumbai (Moderate)
+        </button>
+        <button type="button" onclick="setPreset('Karnataka', 'Bengaluru', '2024-11-15')" class="px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition">
+          Bengaluru (Satisfactory)
+        </button>
+      </div>
+
+      <!-- Submit Button -->
+      <button id="generateBtn" onclick="fetchReport()" class="w-full py-3.5 px-6 rounded-xl bg-gradient-to-r from-rose-600 via-rose-500 to-amber-500 text-white font-semibold text-sm shadow-lg shadow-rose-950 hover:brightness-110 active:scale-[0.99] transition flex items-center justify-center gap-2">
+        <span id="btnSpinner" class="hidden w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin"></span>
+        <span id="btnText">Generate Air Quality & Health Hazard Report</span>
+      </button>
+
+    </div>
+
+    <!-- Output Section -->
+    <div id="outputContainer" class="hidden space-y-6">
+
+      <!-- Text Block Container with 1-click Copy -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
+        <div class="bg-slate-950/80 px-6 py-3 border-b border-slate-800/80 flex items-center justify-between">
+          <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+            Formatted Output
+          </span>
+          <button onclick="copyFormattedReport()" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-medium transition">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+            <span id="copyBtnLabel">Copy Text</span>
+          </button>
+        </div>
+        <pre id="textReport" class="mono text-xs sm:text-sm p-6 overflow-x-auto text-slate-200 leading-relaxed whitespace-pre font-mono"></pre>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script>
+    let citiesData = {};
+
+    // Initial loading
+    async function init() {
+      try {
+        const res = await fetch('/cities.json');
+        citiesData = await res.json();
+        populateStates();
+      } catch (e) {
+        console.error("Failed to load cities registry", e);
+      }
+    }
+
+    function populateStates() {
+      const stateSelect = document.getElementById('stateSelect');
+      stateSelect.innerHTML = '<option value="" disabled>Select State</option>';
+      const states = Object.keys(citiesData).sort();
+      states.forEach(s => {
+        const opt = document.createElement('option');
+        opt.value = s;
+        opt.textContent = `${s} (${citiesData[s].length} cities)`;
+        stateSelect.appendChild(opt);
+      });
+
+      // Default to Bihar
+      stateSelect.value = "Bihar";
+      populateCities("Bihar", "Patna");
+    }
+
+    document.getElementById('stateSelect').addEventListener('change', function() {
+      populateCities(this.value);
+    });
+
+    function populateCities(state, defaultCity = null) {
+      const citySelect = document.getElementById('citySelect');
+      citySelect.innerHTML = '';
+      const cities = citiesData[state] || [];
+      cities.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c.area;
+        opt.textContent = c.area;
+        citySelect.appendChild(opt);
+      });
+      if (defaultCity && cities.some(c => c.area === defaultCity)) {
+        citySelect.value = defaultCity;
+      }
+    }
+
+    function setPreset(state, city, date) {
+      document.getElementById('stateSelect').value = state;
+      populateCities(state, city);
+      document.getElementById('dateInput').value = date;
+      fetchReport();
+    }
+
+    async function fetchReport() {
+      const state = document.getElementById('stateSelect').value;
+      const city = document.getElementById('citySelect').value;
+      const date = document.getElementById('dateInput').value;
+
+      if (!city) return alert("Please select a city.");
+
+      const btnSpinner = document.getElementById('btnSpinner');
+      const btnText = document.getElementById('btnText');
+      btnSpinner.classList.remove('hidden');
+      btnText.textContent = "Computing Forecast...";
+
+      try {
+        const res = await fetch(`/api?city=${encodeURIComponent(city)}&state=${encodeURIComponent(state)}&date=${encodeURIComponent(date)}`);
+        const data = await res.json();
+        renderReport(data);
+      } catch (err) {
+        alert("Failed to fetch report: " + err.message);
+      } finally {
+        btnSpinner.classList.add('hidden');
+        btnText.textContent = "Generate Air Quality & Health Hazard Report";
+      }
+    }
+
+    function renderReport(d) {
+      if (d.error) {
+        alert("Error: " + d.error);
+        return;
+      }
+
+      const container = document.getElementById('outputContainer');
+      const textPre = document.getElementById('textReport');
+
+      let outlookLines = "";
+      d.outlook.forEach(o => {
+        outlookLines += `   * ${o.name} (${o.date_label}):      ${o.badge}: ${o.prob}% probability of ${o.desc}.\n`;
+      });
+
+      let precautionsLines = "";
+      d.advisory.precautions.forEach(p => {
+        precautionsLines += `     - ${p}\n`;
+      });
+
+      const formatted = `========================================================================
+   AIR QUALITY & HEALTH HAZARD REPORT
+========================================================================
+📍 Location:     ${d.city}, ${d.state} (Coordinates: ${d.coordinates.lat}°N, ${d.coordinates.lon}°E)
+📅 Date:         ${d.date}
+📊 Ground AQI:   ${String(d.aqi).padEnd(4)} [${d.status}]
+💨 Main Hazard:  ${d.main_hazard}
+🏛️ Stations:     ${d.stations} CPCB Active Monitoring Stations
+========================================================================
+
+⚠️  HEALTH HAZARD ADVISORY:
+   * Level: ${d.advisory.level}.
+   * Impact: ${d.advisory.impact}
+   * At-Risk Groups: ${d.advisory.at_risk}
+   * Recommended Precautions:
+${precautionsLines}
+🔮 FUTURE EARLY WARNING OUTLOOK:
+${outlookLines}========================================================================`;
+
+      textPre.textContent = formatted;
+      container.classList.remove('hidden');
+      container.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function copyFormattedReport() {
+      const text = document.getElementById('textReport').textContent;
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = document.getElementById('copyBtnLabel');
+        btn.textContent = "Copied!";
+        setTimeout(() => { btn.textContent = "Copy Text"; }, 2000);
+      });
+    }
+
+    // Auto-init
+    window.addEventListener('DOMContentLoaded', init);
+  </script>
+
+</body>
+</html>
