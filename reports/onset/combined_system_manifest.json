@@ -1,0 +1,12 @@
+{
+  "continuation_rule": "alert when AQI at issue time is at or above the calibrated level",
+  "onset_rule": "alert when the clean-origin onset model exceeds the calibrated threshold",
+  "calibration": "joint grid; maximise mean validation recall subject to system FPR <= target in every fold",
+  "continuation_levels_tested": [
+    200.0,
+    400.0
+  ],
+  "max_false_positive_rate": 0.05,
+  "final_test_period": "2024-11-01 to 2025-04-27",
+  "note": "Heads act on disjoint origin populations, so counts add exactly."
+}

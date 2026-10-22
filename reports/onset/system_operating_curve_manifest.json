@@ -1,0 +1,9 @@
+{
+  "budgets": [
+    0.02,
+    0.2
+  ],
+  "calibration": "per budget, maximise mean validation recall subject to FPR <= budget in every fold",
+  "final_test_period": "2024-11-01 to 2025-04-27",
+  "note": "Persistence is parametrised by the continuation level; two-head adds the onset model."
+}

@@ -1,0 +1,22 @@
+ASOF 2026-10-22 | joint rule h1: cont>= 215.0 onset>= 0.95 | h2: {'continuation_level': 230.0, 'onset_threshold': 0.96} | h3: {'continuation_level': 240.0, 'onset_threshold': 0.97}
+Delhi      AQI(t)=  223 Poor         nb=1.0
+          +1d p_glob=0.916 p_onset=0.931 head=continuation ALERT=True
+          +2d p_glob=0.925 p_onset=0.928 head=continuation ALERT=False
+          +3d p_glob=0.901 p_onset=0.926 head=continuation ALERT=False
+Mumbai     AQI(t)=  103 Moderate     nb=0.2
+          +1d p_glob=0.015 p_onset=0.057 head=onset        ALERT=False
+          +2d p_glob=0.033 p_onset=0.074 head=onset        ALERT=False
+          +3d p_glob=0.057 p_onset=0.077 head=onset        ALERT=False
+Bengaluru  AQI(t)=   61 Satisfactory nb=0.0
+          +1d p_glob=0.002 p_onset=0.006 head=onset        ALERT=False
+          +2d p_glob=0.004 p_onset=0.006 head=onset        ALERT=False
+          +3d p_glob=0.005 p_onset=0.008 head=onset        ALERT=False
+Chennai    AQI(t)=   52 Satisfactory nb=0.0
+          +1d p_glob=0.003 p_onset=0.007 head=onset        ALERT=False
+          +2d p_glob=0.019 p_onset=0.036 head=onset        ALERT=False
+          +3d p_glob=0.016 p_onset=0.022 head=onset        ALERT=False
+Kolkata    AQI(t)=   81 Satisfactory nb=0.0
+          +1d p_glob=0.009 p_onset=0.019 head=onset        ALERT=False
+          +2d p_glob=0.018 p_onset=0.026 head=onset        ALERT=False
+          +3d p_glob=0.030 p_onset=0.098 head=onset        ALERT=False
+wrote C:\Users\cdipi\Downloads\aqi_for india\reports\live\predictions_2026-10-22.json

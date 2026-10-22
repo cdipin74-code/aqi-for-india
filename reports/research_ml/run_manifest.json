@@ -1,0 +1,31 @@
+{
+  "metro_input": "data\\processed\\aqi_prediction_metro.csv",
+  "nationwide_input": "data\\processed\\aqi_prediction_full.csv",
+  "models_requested": [
+    "Ridge",
+    "KNN",
+    "SVR",
+    "Random Forest",
+    "Gradient Boosting",
+    "LightGBM",
+    "CatBoost",
+    "XGBoost"
+  ],
+  "horizons": [
+    1,
+    2,
+    3
+  ],
+  "event_thresholds": [
+    200,
+    300
+  ],
+  "metro_test_start": "2024-07-01",
+  "early_warning_train_end": "2024-04-30",
+  "early_warning_validation_end": "2024-10-31",
+  "early_warning_test_end": "2025-04-27",
+  "tree_estimators": 300,
+  "quick_run": false,
+  "target_validation_recall": 0.8,
+  "cost_multiplier": 2.0
+}

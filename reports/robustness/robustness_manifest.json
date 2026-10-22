@@ -1,0 +1,8 @@
+{
+  "input": "reports\\calibration\\calibrated_alert_test_predictions.csv",
+  "bootstrap_method": "forecast-date block bootstrap",
+  "bootstrap_replicates": 500,
+  "confidence_interval": "2.5th to 97.5th percentile",
+  "minimum_group_rows": 100,
+  "minimum_group_events": 10
+}

@@ -1,0 +1,45 @@
+{
+  "best_model": "XGBoost",
+  "train_period": {
+    "start": "2022-04-01",
+    "end": "2024-06-30",
+    "rows": 4107
+  },
+  "test_period": {
+    "start": "2024-07-01",
+    "end": "2024-12-31",
+    "rows": 920
+  },
+  "n_features": 42,
+  "all_model_results": [
+    {
+      "model": "Linear Regression",
+      "MAE": 27.27,
+      "RMSE": 39.82,
+      "R2": 0.7702,
+      "within_10_pct": 28.8
+    },
+    {
+      "model": "Random Forest",
+      "MAE": 20.38,
+      "RMSE": 29.35,
+      "R2": 0.8752,
+      "within_10_pct": 38.91
+    },
+    {
+      "model": "XGBoost",
+      "MAE": 20.05,
+      "RMSE": 29.1,
+      "R2": 0.8773,
+      "within_10_pct": 40.54
+    }
+  ],
+  "best_model_metrics": {
+    "model": "XGBoost",
+    "MAE": 20.05,
+    "RMSE": 29.1,
+    "R2": 0.8773,
+    "within_10_pct": 40.54
+  },
+  "predictions_file": "predictions_test.csv"
+}

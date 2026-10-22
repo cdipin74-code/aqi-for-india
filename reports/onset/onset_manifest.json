@@ -1,0 +1,28 @@
+{
+  "input": "data\\processed\\aqi_prediction_full.csv",
+  "cutoff": 200,
+  "definition": "onset(h) = AQI(t) <= cutoff AND AQI(t+h) > cutoff",
+  "population": "origins with AQI(t) <= cutoff only",
+  "horizons": [
+    1,
+    2,
+    3
+  ],
+  "validation_folds": [
+    "2022-11_to_2023-04",
+    "2023-11_to_2024-04"
+  ],
+  "final_train_end": "2024-10-31",
+  "final_test_period": "2024-11-01 to 2025-04-27",
+  "max_false_positive_rate": 0.05,
+  "neighbour_count": 5,
+  "neighbour_caveat": "adjacency only; wind direction unavailable, so not true upwind transport",
+  "baselines": [
+    "prevalence (no skill)",
+    "area-month climatology",
+    "AQI level",
+    "1-day, 3-day and 7-day AQI trend",
+    "persistence (zero recall by construction)"
+  ],
+  "saved_models": "models/onset/onset_aqi_gt_200_h{1,2,3}.joblib"
+}

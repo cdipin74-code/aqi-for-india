@@ -1,0 +1,325 @@
+{
+ "generated_at_utc": "2026-10-22T10:46:57.041775+00:00",
+ "asof": "2026-10-22",
+ "system": "jointly calibrated two-head rule (continuation | onset), support: global hazard head",
+ "models": {
+  "feature_path": "tre.build_feature_table + eow.add_neighbour_features(k=5)",
+  "weather_note": "live rows use Open-Meteo (ERA5 archive; recent days forecast API); research rows reanalysis; lag chains may switch source"
+ },
+ "calibrated_rule": {
+  "1": {
+   "continuation_level": 215.0,
+   "onset_threshold": 0.95
+  },
+  "2": {
+   "continuation_level": 230.0,
+   "onset_threshold": 0.96
+  },
+  "3": {
+   "continuation_level": 240.0,
+   "onset_threshold": 0.97
+  }
+ },
+ "pilots": {
+  "Delhi": {
+   "location_key": "Delhi||Delhi",
+   "issue_date": "2026-10-22",
+   "aqi_at_issue": 223.0,
+   "status_at_issue": "Poor",
+   "weather_source_at_issue": "OPEN_METEO",
+   "horizons": {
+    "+1d": {
+     "target_date": "2026-10-23",
+     "p_hazard_global": 0.9165,
+     "p_onset_clean": 0.9315,
+     "relevant_head": "continuation",
+     "joint_alert": true,
+     "rule": {
+      "continuation_level": 215.0,
+      "onset_threshold": 0.95,
+      "alert_threshold_global_model": 0.9,
+      "onset_threshold_model": 0.88
+     },
+     "global_threshold_alert": true,
+     "naive_persistence_aqi": 223.0
+    },
+    "+2d": {
+     "target_date": "2026-10-24",
+     "p_hazard_global": 0.9253,
+     "p_onset_clean": 0.9285,
+     "relevant_head": "continuation",
+     "joint_alert": false,
+     "rule": {
+      "continuation_level": 230.0,
+      "onset_threshold": 0.96,
+      "alert_threshold_global_model": 0.9,
+      "onset_threshold_model": 0.87
+     },
+     "global_threshold_alert": true,
+     "naive_persistence_aqi": 223.0
+    },
+    "+3d": {
+     "target_date": "2026-10-25",
+     "p_hazard_global": 0.9015,
+     "p_onset_clean": 0.9258,
+     "relevant_head": "continuation",
+     "joint_alert": false,
+     "rule": {
+      "continuation_level": 240.0,
+      "onset_threshold": 0.97,
+      "alert_threshold_global_model": 0.93,
+      "onset_threshold_model": 0.9
+     },
+     "global_threshold_alert": false,
+     "naive_persistence_aqi": 223.0
+    }
+   },
+   "neighbour_context": {
+    "neighbour_count_reporting": 1.0,
+    "neighbour_mean_aqi": 191.2,
+    "expected": 5,
+    "note": "mean/max AQI across the 5 nearest research areas; CPCB city level feeds substitute for research areas in the plan file"
+   }
+  },
+  "Mumbai": {
+   "location_key": "Maharashtra||Mumbai",
+   "issue_date": "2026-10-22",
+   "aqi_at_issue": 103.0,
+   "status_at_issue": "Moderate",
+   "weather_source_at_issue": "OPEN_METEO",
+   "horizons": {
+    "+1d": {
+     "target_date": "2026-10-23",
+     "p_hazard_global": 0.0155,
+     "p_onset_clean": 0.0573,
+     "relevant_head": "onset",
+     "joint_alert": false,
+     "rule": {
+      "continuation_level": 215.0,
+      "onset_threshold": 0.95,
+      "alert_threshold_global_model": 0.9,
+      "onset_threshold_model": 0.88
+     },
+     "global_threshold_alert": false,
+     "naive_persistence_aqi": 103.0
+    },
+    "+2d": {
+     "target_date": "2026-10-24",
+     "p_hazard_global": 0.0333,
+     "p_onset_clean": 0.0743,
+     "relevant_head": "onset",
+     "joint_alert": false,
+     "rule": {
+      "continuation_level": 230.0,
+      "onset_threshold": 0.96,
+      "alert_threshold_global_model": 0.9,
+      "onset_threshold_model": 0.87
+     },
+     "global_threshold_alert": false,
+     "naive_persistence_aqi": 103.0
+    },
+    "+3d": {
+     "target_date": "2026-10-25",
+     "p_hazard_global": 0.0572,
+     "p_onset_clean": 0.0772,
+     "relevant_head": "onset",
+     "joint_alert": false,
+     "rule": {
+      "continuation_level": 240.0,
+      "onset_threshold": 0.97,
+      "alert_threshold_global_model": 0.93,
+      "onset_threshold_model": 0.9
+     },
+     "global_threshold_alert": false,
+     "naive_persistence_aqi": 103.0
+    }
+   },
+   "neighbour_context": {
+    "neighbour_count_reporting": 0.2,
+    "neighbour_mean_aqi": 102.0,
+    "expected": 5,
+    "note": "mean/max AQI across the 5 nearest research areas; CPCB city level feeds substitute for research areas in the plan file"
+   }
+  },
+  "Bengaluru": {
+   "location_key": "Karnataka||Bengaluru",
+   "issue_date": "2026-10-22",
+   "aqi_at_issue": 61.0,
+   "status_at_issue": "Satisfactory",
+   "weather_source_at_issue": "OPEN_METEO",
+   "horizons": {
+    "+1d": {
+     "target_date": "2026-10-23",
+     "p_hazard_global": 0.0021,
+     "p_onset_clean": 0.0056,
+     "relevant_head": "onset",
+     "joint_alert": false,
+     "rule": {
+      "continuation_level": 215.0,
+      "onset_threshold": 0.95,
+      "alert_threshold_global_model": 0.9,
+      "onset_threshold_model": 0.88
+     },
+     "global_threshold_alert": false,
+     "naive_persistence_aqi": 61.0
+    },
+    "+2d": {
+     "target_date": "2026-10-24",
+     "p_hazard_global": 0.0039,
+     "p_onset_clean": 0.0065,
+     "relevant_head": "onset",
+     "joint_alert": false,
+     "rule": {
+      "continuation_level": 230.0,
+      "onset_threshold": 0.96,
+      "alert_threshold_global_model": 0.9,
+      "onset_threshold_model": 0.87
+     },
+     "global_threshold_alert": false,
+     "naive_persistence_aqi": 61.0
+    },
+    "+3d": {
+     "target_date": "2026-10-25",
+     "p_hazard_global": 0.0054,
+     "p_onset_clean": 0.0078,
+     "relevant_head": "onset",
+     "joint_alert": false,
+     "rule": {
+      "continuation_level": 240.0,
+      "onset_threshold": 0.97,
+      "alert_threshold_global_model": 0.93,
+      "onset_threshold_model": 0.9
+     },
+     "global_threshold_alert": false,
+     "naive_persistence_aqi": 61.0
+    }
+   },
+   "neighbour_context": {
+    "neighbour_count_reporting": 0.0,
+    "neighbour_mean_aqi": null,
+    "expected": 5,
+    "note": "mean/max AQI across the 5 nearest research areas; CPCB city level feeds substitute for research areas in the plan file"
+   }
+  },
+  "Chennai": {
+   "location_key": "Tamil Nadu||Chennai",
+   "issue_date": "2026-10-22",
+   "aqi_at_issue": 52.0,
+   "status_at_issue": "Satisfactory",
+   "weather_source_at_issue": "OPEN_METEO",
+   "horizons": {
+    "+1d": {
+     "target_date": "2026-10-23",
+     "p_hazard_global": 0.0026,
+     "p_onset_clean": 0.0068,
+     "relevant_head": "onset",
+     "joint_alert": false,
+     "rule": {
+      "continuation_level": 215.0,
+      "onset_threshold": 0.95,
+      "alert_threshold_global_model": 0.9,
+      "onset_threshold_model": 0.88
+     },
+     "global_threshold_alert": false,
+     "naive_persistence_aqi": 52.0
+    },
+    "+2d": {
+     "target_date": "2026-10-24",
+     "p_hazard_global": 0.0191,
+     "p_onset_clean": 0.036,
+     "relevant_head": "onset",
+     "joint_alert": false,
+     "rule": {
+      "continuation_level": 230.0,
+      "onset_threshold": 0.96,
+      "alert_threshold_global_model": 0.9,
+      "onset_threshold_model": 0.87
+     },
+     "global_threshold_alert": false,
+     "naive_persistence_aqi": 52.0
+    },
+    "+3d": {
+     "target_date": "2026-10-25",
+     "p_hazard_global": 0.0161,
+     "p_onset_clean": 0.0219,
+     "relevant_head": "onset",
+     "joint_alert": false,
+     "rule": {
+      "continuation_level": 240.0,
+      "onset_threshold": 0.97,
+      "alert_threshold_global_model": 0.93,
+      "onset_threshold_model": 0.9
+     },
+     "global_threshold_alert": false,
+     "naive_persistence_aqi": 52.0
+    }
+   },
+   "neighbour_context": {
+    "neighbour_count_reporting": 0.0,
+    "neighbour_mean_aqi": null,
+    "expected": 5,
+    "note": "mean/max AQI across the 5 nearest research areas; CPCB city level feeds substitute for research areas in the plan file"
+   }
+  },
+  "Kolkata": {
+   "location_key": "West Bengal||Kolkata",
+   "issue_date": "2026-10-22",
+   "aqi_at_issue": 81.0,
+   "status_at_issue": "Satisfactory",
+   "weather_source_at_issue": "OPEN_METEO",
+   "horizons": {
+    "+1d": {
+     "target_date": "2026-10-23",
+     "p_hazard_global": 0.0085,
+     "p_onset_clean": 0.019,
+     "relevant_head": "onset",
+     "joint_alert": false,
+     "rule": {
+      "continuation_level": 215.0,
+      "onset_threshold": 0.95,
+      "alert_threshold_global_model": 0.9,
+      "onset_threshold_model": 0.88
+     },
+     "global_threshold_alert": false,
+     "naive_persistence_aqi": 81.0
+    },
+    "+2d": {
+     "target_date": "2026-10-24",
+     "p_hazard_global": 0.0183,
+     "p_onset_clean": 0.0265,
+     "relevant_head": "onset",
+     "joint_alert": false,
+     "rule": {
+      "continuation_level": 230.0,
+      "onset_threshold": 0.96,
+      "alert_threshold_global_model": 0.9,
+      "onset_threshold_model": 0.87
+     },
+     "global_threshold_alert": false,
+     "naive_persistence_aqi": 81.0
+    },
+    "+3d": {
+     "target_date": "2026-10-25",
+     "p_hazard_global": 0.0297,
+     "p_onset_clean": 0.0976,
+     "relevant_head": "onset",
+     "joint_alert": false,
+     "rule": {
+      "continuation_level": 240.0,
+      "onset_threshold": 0.97,
+      "alert_threshold_global_model": 0.93,
+      "onset_threshold_model": 0.9
+     },
+     "global_threshold_alert": false,
+     "naive_persistence_aqi": 81.0
+    }
+   },
+   "neighbour_context": {
+    "neighbour_count_reporting": 0.0,
+    "neighbour_mean_aqi": null,
+    "expected": 5,
+    "note": "mean/max AQI across the 5 nearest research areas; CPCB city level feeds substitute for research areas in the plan file"
+   }
+  }
+ }
+}

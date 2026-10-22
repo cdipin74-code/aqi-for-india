@@ -1,0 +1,10 @@
+{
+  "input": "data\\processed\\aqi_prediction_full.csv",
+  "train_end": "2024-04-30",
+  "calibration_end": "2024-07-31",
+  "policy_tuning_end": "2024-10-31",
+  "test_end": "2025-04-27",
+  "calibration_method": "Platt scaling (logistic regression on validation probabilities)",
+  "target_recall": 0.8,
+  "max_false_positive_rate": 0.05
+}

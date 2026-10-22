@@ -1,0 +1,12 @@
+{
+  "input": "data\\processed\\aqi_prediction_full.csv",
+  "cutoff": 200,
+  "score": "aqi_at_issue scaled by training-period min/max",
+  "validation_folds": [
+    "2022-11_to_2023-04",
+    "2023-11_to_2024-04"
+  ],
+  "final_test_period": "2024-11-01 to 2025-04-27",
+  "max_false_positive_rate": 0.05,
+  "note": "Identical threshold rule as the ML models, applied to the persistence score."
+}

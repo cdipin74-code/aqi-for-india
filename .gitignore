@@ -1,0 +1,34 @@
+# ---------------------------------------------------------------------------
+# Local data. Large, partly licensed, and reproducible from the scripts in src/
+# (CPCB live pull, Open-Meteo, NASA POWER). Never commit API tokens either.
+# ---------------------------------------------------------------------------
+data/
+*.env
+session_token.json
+
+# ---------------------------------------------------------------------------
+# Trained models: binaries, reproducible from the notebooks/scripts.
+# ---------------------------------------------------------------------------
+models/
+
+# ---------------------------------------------------------------------------
+# Bulky prediction dumps. Small summary tables and figures stay tracked.
+# ---------------------------------------------------------------------------
+reports/**/*predictions*.csv
+reports/**/*issued_alerts*.csv
+reports/**/*alerts*.csv
+reports/executed_notebooks/
+
+# ---------------------------------------------------------------------------
+# Python / editor noise
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+catboost_info/
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

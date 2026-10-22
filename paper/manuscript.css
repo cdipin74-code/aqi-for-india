@@ -1,0 +1,192 @@
+@page {
+  size: A4;
+  margin: 20mm 18mm 18mm 18mm;
+}
+
+html {
+  font-size: 11pt;
+}
+
+body {
+  font-family: "Cambria", "Georgia", "Times New Roman", serif;
+  line-height: 1.55;
+  color: #1a1a1a;
+  max-width: 190mm;
+  margin: 0 auto;
+  padding: 0;
+  text-align: justify;
+  hyphens: auto;
+}
+
+h1 {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 20pt;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #10243a;
+  text-align: left;
+  margin: 0 0 6mm 0;
+  padding-bottom: 3mm;
+  border-bottom: 2px solid #10243a;
+}
+
+h2 {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13.5pt;
+  font-weight: 600;
+  color: #10243a;
+  margin: 8mm 0 3mm 0;
+  padding-bottom: 1.5mm;
+  border-bottom: 1px solid #c9d4df;
+  page-break-after: avoid;
+  text-align: left;
+}
+
+h3 {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 11.5pt;
+  font-weight: 600;
+  color: #1d3a57;
+  margin: 6mm 0 2mm 0;
+  page-break-after: avoid;
+  text-align: left;
+}
+
+h4 {
+  font-size: 11pt;
+  font-weight: 700;
+  margin: 4mm 0 1.5mm 0;
+  page-break-after: avoid;
+}
+
+p {
+  margin: 0 0 2.6mm 0;
+  orphans: 3;
+  widows: 3;
+}
+
+strong {
+  color: #0f1f2e;
+}
+
+em {
+  color: #24384d;
+}
+
+ul, ol {
+  margin: 0 0 3mm 0;
+  padding-left: 6mm;
+}
+
+li {
+  margin-bottom: 1.2mm;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: auto;
+  width: 100%;
+  margin: 3mm 0 4mm 0;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 8.6pt;
+  line-height: 1.35;
+  page-break-inside: avoid;
+}
+
+thead {
+  display: table-header-group;
+}
+
+/* Let content decide column widths; pandoc's percentage hints squeeze the
+   first column and force long labels to wrap. */
+col {
+  width: auto !important;
+}
+
+th {
+  background: #e8eef5;
+  color: #10243a;
+  font-weight: 600;
+  text-align: left;
+  padding: 1.6mm 2mm;
+  border-top: 1px solid #8fa5bb;
+  border-bottom: 1px solid #8fa5bb;
+}
+
+td {
+  padding: 1.4mm 2mm;
+  border-bottom: 0.5px solid #d6dee6;
+  vertical-align: top;
+}
+
+tbody tr:nth-child(even) {
+  background: #f7f9fb;
+}
+
+tr {
+  page-break-inside: avoid;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2mm auto 1mm auto;
+}
+
+p > img {
+  page-break-inside: avoid;
+}
+
+code {
+  font-family: "Cascadia Mono", "Consolas", monospace;
+  font-size: 9.2pt;
+  background: #f0f3f6;
+  padding: 0.3mm 1.2mm;
+  border-radius: 2px;
+}
+
+a {
+  color: #174a75;
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #c9d4df;
+  margin: 6mm 0;
+}
+
+/* Reference list */
+h2 + ol {
+  font-size: 9.4pt;
+  line-height: 1.4;
+  padding-left: 7mm;
+}
+
+h2 + ol li {
+  margin-bottom: 1.8mm;
+}
+
+@media print {
+  body {
+    max-width: none;
+    font-size: 10.5pt;
+  }
+
+  h1 {
+    font-size: 19pt;
+  }
+
+  h2 {
+    font-size: 13pt;
+  }
+
+  table {
+    font-size: 8.4pt;
+  }
+
+  a {
+    color: inherit;
+  }
+}
